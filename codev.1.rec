@@ -1,0 +1,38 @@
+res system_with_camera.len
+LIS sur s13
+?SCO S13 X4
+?SCO S13
+?SCO S13 x
+?SCO S13 x1
+sco s13 x
+sco s13 x?
+sco s13 x ?
+sco s13
+s13
+lis
+x s13
+?SCO s13
+?SCO s13 x
+?SCO s13 1
+sur s13
+?cuy s13
+sco s13?
+sco s13? x 0
+sco s13?
+sur s13 x
+tli s13
+pkl s13
+?sco s13 z1
+?sco s13 c2
+sur s0
+aut
+stp yes
+err cdv
+mnc 5
+dra s1..30 no
+efp all y
+eft ta
+GLA SO..I  NFK5 NSK16 NLAF2 SF4
+go
+?sco s13 c2
+exit

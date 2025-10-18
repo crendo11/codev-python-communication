@@ -1,0 +1,10 @@
+res system_with_camera
+run "C:\\CODEV202203_SR1\\macro\\setvig.seq" 1e-07 0.1 100 NO YES ;GO
+AUT; P YES; ERR CDV; MNC 5; DRA S1..30  NO; EFP ALL Y; EFT TA; GLA SO..I  NFK5 NSK16 NLAF2 SF4; GO
+sur s
+sur s13
+?sco s13 c2
+?thi s13
+?sco s13 c1
+?sco s13 c2
+exit

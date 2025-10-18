@@ -1,0 +1,3775 @@
+
+             75% complete...
+Warning: There are energy levels as great as   1.8% at the edge of the
+               PSF grid.  Increase TGR or NRD (or both) if possible.
+Warning: There are energy levels as great as   2.6% at the edge of the
+               PSF grid.  Increase TGR or NRD (or both) if possible.
+Warning: There are energy levels as great as   4.8% at the edge of the
+               PSF grid.  Increase TGR or NRD (or both) if possible.
+Warning: There are energy levels as great as   1.4% at the edge of the
+               PSF grid.  Increase TGR or NRD (or both) if possible.
+             100% complete...
+       Image Simulation Stage:
+             10% complete...
+             25% complete...
+             50% complete...
+             75% complete...
+             100% complete...
+       IMSIM output saved as: C:\users\crendon\documents\github\codev_python_com\calibration_star\d_0p70_slm_1p20_ims.bmp
+
+
+Command End:
+
+---------------------------
+
+  Completed for power 1.20 in 1326.96 seconds.
+  Estimated remaining time for this distance: 88.46 minutes.
+---------------------------
+
+  Setting tilt: SCO S13 X -0.016985
+  Applying vignetting: run "C:\CODEV202203_SR1\macro\setvig.seq" 1e-07 0.1 100 NO YES ;GO
+  Running IMS, saving to C:\users\crendon\documents\github\codev_python_com\calibration_star\d_0p70_slm_1p25.bmp...
+
+--- CODE V Console Output ---
+    IMS                                                                              30-Sep-25   8H 29M 17S
+                                                CODE V PC  Version: 2022.03 SR1      CPU clock: 16H 44M 52S
+    User-entered and default apertures are active
+
+
+
+Warning: This system is not isoplanatic at field(s)  2, 3, 4, 5, 6, 7, 8, 9.
+               Any PSF results are of questionable value for assessing
+               the image quality, except in those cases where the user is
+               interested only in the image of a point-like object.  The
+               image quality for the unacceptable fields varies significan-
+               tly over a lateral region of 12 Airy disk diameters.
+
+
+
+Warning: Forcing SYM NON for image simulation since detector convolution is specified.
+       IMS
+
+       1 zoom position is active
+
+       Object Attributes:
+       Input Object File:          C:\users\crendon\documents\github\codev_python_com\star_60_spokes.bmp
+       Object File Type:           8-bit bitmap
+       Object File Resolution:     2700 x 2700
+       Object Mapping:             Object Height, Rectilinear
+       Field Coordinates:          Real Image Height
+       Object Half-diagonal:       4.002224 mm
+       Object Center (X,Y):        0.000000 , 0.000000 mm
+       Object Rotation:            0.000000 degrees
+
+
+       Computation Controls:
+       Transform Grid Size (TGR):       1024
+       Pupil Grid (NRD):                512
+       Image Grid (GRI):                0.000723 mm
+       PSF Array Size:                  15 x 15
+       Rotational Symmetry:             No
+       Detector Size (X,Y):             0.003750 , 0.003750 mm
+
+
+       Color Controls:
+       Simulation Type:               Polychromatic Intensity Analysis
+       System Wavelengths and Weights used for polychromatic intensity calculation
+
+
+       Output Controls:
+       Display Object File?:              Yes
+       Display IMS File(s)?:              Yes
+       Display PSF Diagnostic?:           No
+
+
+       Output IMS Folder:          C:\users\crendon\documents\github\codev_python_com
+       Output IMS File(s):         C:\users\crendon\documents\github\codev_python_com\calibration_star\d_0p70_slm_1p25_ims.bmp
+       Exported IMS data saved as: None specified
+       Color Scale:                Gray Scale
+
+
+
+
+       Image Attributes:
+       Image Semi-diagonal:   4.104831 mm
+       Image pixel size:      0.002150 x 0.002150 mm
+
+
+       PSF Computation Stage:
+Warning: There are energy levels as great as   3.6% at the edge of the
+               PSF grid.  Increase TGR or NRD (or both) if possible.
+Warning: There are energy levels as great as   2.7% at the edge of the
+               PSF grid.  Increase TGR or NRD (or both) if possible.
+Warning: There are energy levels as great as   1.5% at the edge of the
+               PSF grid.  Increase TGR or NRD (or both) if possible.
+Warning: There are energy levels as great as   1.1% at the edge of the
+               PSF grid.  Increase TGR or NRD (or both) if possible.
+Warning: Vignetting cannot be set for one or more of the synthesized fields.
+               These fields are taken to have vignetting factors of 0.
+Warning: There are energy levels as great as   3.0% at the edge of the
+               PSF grid.  Increase TGR or NRD (or both) if possible.
+Warning: There are energy levels as great as   1.3% at the edge of the
+               PSF grid.  Increase TGR or NRD (or both) if possible.
+             10% complete...
+Warning: There are energy levels as great as   2.5% at the edge of the
+               PSF grid.  Increase TGR or NRD (or both) if possible.
+Warning: There are energy levels as great as   2.0% at the edge of the
+               PSF grid.  Increase TGR or NRD (or both) if possible.
+             25% complete...
+Warning: There are energy levels as great as   2.1% at the edge of the
+               PSF grid.  Increase TGR or NRD (or both) if possible.
+Warning: There are energy levels as great as   1.8% at the edge of the
+               PSF grid.  Increase TGR or NRD (or both) if possible.
+Warning: There are energy levels as great as   1.4% at the edge of the
+               PSF grid.  Increase TGR or NRD (or both) if possible.
+Warning: There are energy levels as great as   1.7% at the edge of the
+               PSF grid.  Increase TGR or NRD (or both) if possible.
+             50% complete...
+Warning: There are energy levels as great as   2.3% at the edge of the
+               PSF grid.  Increase TGR or NRD (or both) if possible.
+Warning: There are energy levels as great as   3.2% at the edge of the
+               PSF grid.  Increase TGR or NRD (or both) if possible.
+             75% complete...
+Warning: There are energy levels as great as   6.0% at the edge of the
+               PSF grid.  Increase TGR or NRD (or both) if possible.
+Warning: There are energy levels as great as  11.1% at the edge of the
+               PSF grid.  Increase TGR or NRD (or both) if possible.
+Warning: There are energy levels as great as  22.5% at the edge of the
+               PSF grid.  Increase TGR or NRD (or both) if possible.
+Warning: There are energy levels as great as   6.2% at the edge of the
+               PSF grid.  Increase TGR or NRD (or both) if possible.
+Warning: There are energy levels as great as   5.9% at the edge of the
+               PSF grid.  Increase TGR or NRD (or both) if possible.
+Warning: There are energy levels as great as   1.9% at the edge of the
+               PSF grid.  Increase TGR or NRD (or both) if possible.
+Warning: There are energy levels as great as   1.6% at the edge of the
+               PSF grid.  Increase TGR or NRD (or both) if possible.
+Warning: There are energy levels as great as   2.2% at the edge of the
+               PSF grid.  Increase TGR or NRD (or both) if possible.
+             100% complete...
+       Image Simulation Stage:
+             10% complete...
+             25% complete...
+             50% complete...
+             75% complete...
+             100% complete...
+       IMSIM output saved as: C:\users\crendon\documents\github\codev_python_com\calibration_star\d_0p70_slm_1p25_ims.bmp
+
+
+Command End:
+
+---------------------------
+
+  Completed for power 1.25 in 1418.36 seconds.
+  Estimated remaining time for this distance: 70.92 minutes.
+---------------------------
+
+  Setting tilt: SCO S13 X -0.017664
+  Applying vignetting: run "C:\CODEV202203_SR1\macro\setvig.seq" 1e-07 0.1 100 NO YES ;GO
+  Running IMS, saving to C:\users\crendon\documents\github\codev_python_com\calibration_star\d_0p70_slm_1p30.bmp...
+
+--- CODE V Console Output ---
+    IMS                                                                              30-Sep-25   8H 52M 56S
+                                                CODE V PC  Version: 2022.03 SR1      CPU clock: 17H  8M 31S
+    User-entered and default apertures are active
+
+
+
+Warning: This system is not isoplanatic at field(s)  2, 3, 4, 5, 6, 7, 8, 9.
+               Any PSF results are of questionable value for assessing
+               the image quality, except in those cases where the user is
+               interested only in the image of a point-like object.  The
+               image quality for the unacceptable fields varies significan-
+               tly over a lateral region of 12 Airy disk diameters.
+
+
+
+Warning: Forcing SYM NON for image simulation since detector convolution is specified.
+       IMS
+
+       1 zoom position is active
+
+       Object Attributes:
+       Input Object File:          C:\users\crendon\documents\github\codev_python_com\star_60_spokes.bmp
+       Object File Type:           8-bit bitmap
+       Object File Resolution:     2700 x 2700
+       Object Mapping:             Object Height, Rectilinear
+       Field Coordinates:          Real Image Height
+       Object Half-diagonal:       4.002224 mm
+       Object Center (X,Y):        0.000000 , 0.000000 mm
+       Object Rotation:            0.000000 degrees
+
+
+       Computation Controls:
+       Transform Grid Size (TGR):       1024
+       Pupil Grid (NRD):                512
+       Image Grid (GRI):                0.000723 mm
+       PSF Array Size:                  15 x 15
+       Rotational Symmetry:             No
+       Detector Size (X,Y):             0.003750 , 0.003750 mm
+
+
+       Color Controls:
+       Simulation Type:               Polychromatic Intensity Analysis
+       System Wavelengths and Weights used for polychromatic intensity calculation
+
+
+       Output Controls:
+       Display Object File?:              Yes
+       Display IMS File(s)?:              Yes
+       Display PSF Diagnostic?:           No
+
+
+       Output IMS Folder:          C:\users\crendon\documents\github\codev_python_com
+       Output IMS File(s):         C:\users\crendon\documents\github\codev_python_com\calibration_star\d_0p70_slm_1p30_ims.bmp
+       Exported IMS data saved as: None specified
+       Color Scale:                Gray Scale
+
+
+
+
+       Image Attributes:
+       Image Semi-diagonal:   4.108337 mm
+       Image pixel size:      0.002152 x 0.002152 mm
+
+
+       PSF Computation Stage:
+Warning: There are energy levels as great as  13.5% at the edge of the
+               PSF grid.  Increase TGR or NRD (or both) if possible.
+Warning: There are energy levels as great as   5.9% at the edge of the
+               PSF grid.  Increase TGR or NRD (or both) if possible.
+Warning: There are energy levels as great as   2.6% at the edge of the
+               PSF grid.  Increase TGR or NRD (or both) if possible.
+Warning: There are energy levels as great as   1.6% at the edge of the
+               PSF grid.  Increase TGR or NRD (or both) if possible.
+Warning: There are energy levels as great as   1.1% at the edge of the
+               PSF grid.  Increase TGR or NRD (or both) if possible.
+Warning: There are energy levels as great as   1.4% at the edge of the
+               PSF grid.  Increase TGR or NRD (or both) if possible.
+Warning: Vignetting cannot be set for one or more of the synthesized fields.
+               These fields are taken to have vignetting factors of 0.
+Warning: There are energy levels as great as  10.2% at the edge of the
+               PSF grid.  Increase TGR or NRD (or both) if possible.
+Warning: There are energy levels as great as   3.2% at the edge of the
+               PSF grid.  Increase TGR or NRD (or both) if possible.
+Warning: There are energy levels as great as   1.3% at the edge of the
+               PSF grid.  Increase TGR or NRD (or both) if possible.
+             10% complete...
+Warning: There are energy levels as great as   8.6% at the edge of the
+               PSF grid.  Increase TGR or NRD (or both) if possible.
+Warning: There are energy levels as great as   1.9% at the edge of the
+               PSF grid.  Increase TGR or NRD (or both) if possible.
+Warning: There are energy levels as great as   6.7% at the edge of the
+               PSF grid.  Increase TGR or NRD (or both) if possible.
+             25% complete...
+Warning: There are energy levels as great as   6.3% at the edge of the
+               PSF grid.  Increase TGR or NRD (or both) if possible.
+Warning: There are energy levels as great as   1.0% at the edge of the
+               PSF grid.  Increase TGR or NRD (or both) if possible.
+Warning: There are energy levels as great as   5.8% at the edge of the
+               PSF grid.  Increase TGR or NRD (or both) if possible.
+Warning: There are energy levels as great as   4.9% at the edge of the
+               PSF grid.  Increase TGR or NRD (or both) if possible.
+Warning: There are energy levels as great as   5.7% at the edge of the
+               PSF grid.  Increase TGR or NRD (or both) if possible.
+             50% complete...
+Warning: There are energy levels as great as   6.4% at the edge of the
+               PSF grid.  Increase TGR or NRD (or both) if possible.
+Warning: There are energy levels as great as   7.9% at the edge of the
+               PSF grid.  Increase TGR or NRD (or both) if possible.
+Warning: There are energy levels as great as  11.0% at the edge of the
+               PSF grid.  Increase TGR or NRD (or both) if possible.
+Warning: There are energy levels as great as  18.1% at the edge of the
+               PSF grid.  Increase TGR or NRD (or both) if possible.
+Warning: There are energy levels as great as   1.2% at the edge of the
+               PSF grid.  Increase TGR or NRD (or both) if possible.
+             75% complete...
+Warning: There are energy levels as great as   1.7% at the edge of the
+               PSF grid.  Increase TGR or NRD (or both) if possible.
+Warning: There are energy levels as great as  31.2% at the edge of the
+               PSF grid.  Increase TGR or NRD (or both) if possible.
+Warning: There are energy levels as great as   2.3% at the edge of the
+               PSF grid.  Increase TGR or NRD (or both) if possible.
+Warning: There are energy levels as great as  49.4% at the edge of the
+               PSF grid.  Increase TGR or NRD (or both) if possible.
+Warning: There are energy levels as great as   8.4% at the edge of the
+               PSF grid.  Increase TGR or NRD (or both) if possible.
+Warning: There are energy levels as great as   2.7% at the edge of the
+               PSF grid.  Increase TGR or NRD (or both) if possible.
+Warning: There are energy levels as great as   2.1% at the edge of the
+               PSF grid.  Increase TGR or NRD (or both) if possible.
+Warning: There are energy levels as great as   3.4% at the edge of the
+               PSF grid.  Increase TGR or NRD (or both) if possible.
+Warning: There are energy levels as great as  67.1% at the edge of the
+               PSF grid.  Increase TGR or NRD (or both) if possible.
+Warning: There are energy levels as great as  30.3% at the edge of the
+               PSF grid.  Increase TGR or NRD (or both) if possible.
+Warning: There are energy levels as great as  29.9% at the edge of the
+               PSF grid.  Increase TGR or NRD (or both) if possible.
+Warning: There are energy levels as great as  17.1% at the edge of the
+               PSF grid.  Increase TGR or NRD (or both) if possible.
+Warning: There are energy levels as great as  10.4% at the edge of the
+               PSF grid.  Increase TGR or NRD (or both) if possible.
+Warning: There are energy levels as great as   7.5% at the edge of the
+               PSF grid.  Increase TGR or NRD (or both) if possible.
+Warning: There are energy levels as great as   6.2% at the edge of the
+               PSF grid.  Increase TGR or NRD (or both) if possible.
+Warning: There are energy levels as great as   5.6% at the edge of the
+               PSF grid.  Increase TGR or NRD (or both) if possible.
+Warning: There are energy levels as great as   5.2% at the edge of the
+               PSF grid.  Increase TGR or NRD (or both) if possible.
+Warning: There are energy levels as great as   5.0% at the edge of the
+               PSF grid.  Increase TGR or NRD (or both) if possible.
+Warning: There are energy levels as great as   6.1% at the edge of the
+               PSF grid.  Increase TGR or NRD (or both) if possible.
+Warning: There are energy levels as great as   4.8% at the edge of the
+               PSF grid.  Increase TGR or NRD (or both) if possible.
+             100% complete...
+       Image Simulation Stage:
+             10% complete...
+             25% complete...
+             50% complete...
+             75% complete...
+             100% complete...
+       IMSIM output saved as: C:\users\crendon\documents\github\codev_python_com\calibration_star\d_0p70_slm_1p30_ims.bmp
+
+
+Command End:
+
+---------------------------
+
+  Completed for power 1.30 in 1478.08 seconds.
+  Estimated remaining time for this distance: 49.27 minutes.
+---------------------------
+
+  Setting tilt: SCO S13 X -0.018344
+  Applying vignetting: run "C:\CODEV202203_SR1\macro\setvig.seq" 1e-07 0.1 100 NO YES ;GO
+  Running IMS, saving to C:\users\crendon\documents\github\codev_python_com\calibration_star\d_0p70_slm_1p35.bmp...
+
+--- CODE V Console Output ---
+    IMS                                                                              30-Sep-25   9H 17M 34S
+                                                CODE V PC  Version: 2022.03 SR1      CPU clock: 17H 33M  9S
+    User-entered and default apertures are active
+
+
+
+Warning: This system is not isoplanatic at field(s)  2, 3, 4, 5, 6, 7, 8, 9.
+               Any PSF results are of questionable value for assessing
+               the image quality, except in those cases where the user is
+               interested only in the image of a point-like object.  The
+               image quality for the unacceptable fields varies significan-
+               tly over a lateral region of 12 Airy disk diameters.
+
+
+
+Warning: Forcing SYM NON for image simulation since detector convolution is specified.
+       IMS
+
+       1 zoom position is active
+
+       Object Attributes:
+       Input Object File:          C:\users\crendon\documents\github\codev_python_com\star_60_spokes.bmp
+       Object File Type:           8-bit bitmap
+       Object File Resolution:     2700 x 2700
+       Object Mapping:             Object Height, Rectilinear
+       Field Coordinates:          Real Image Height
+       Object Half-diagonal:       4.002224 mm
+       Object Center (X,Y):        0.000000 , 0.000000 mm
+       Object Rotation:            0.000000 degrees
+
+
+       Computation Controls:
+       Transform Grid Size (TGR):       1024
+       Pupil Grid (NRD):                512
+       Image Grid (GRI):                0.000722 mm
+       PSF Array Size:                  15 x 15
+       Rotational Symmetry:             No
+       Detector Size (X,Y):             0.003750 , 0.003750 mm
+
+
+       Color Controls:
+       Simulation Type:               Polychromatic Intensity Analysis
+       System Wavelengths and Weights used for polychromatic intensity calculation
+
+
+       Output Controls:
+       Display Object File?:              Yes
+       Display IMS File(s)?:              Yes
+       Display PSF Diagnostic?:           No
+
+
+       Output IMS Folder:          C:\users\crendon\documents\github\codev_python_com
+       Output IMS File(s):         C:\users\crendon\documents\github\codev_python_com\calibration_star\d_0p70_slm_1p35_ims.bmp
+       Exported IMS data saved as: None specified
+       Color Scale:                Gray Scale
+
+
+
+
+       Image Attributes:
+       Image Semi-diagonal:   4.111840 mm
+       Image pixel size:      0.002154 x 0.002154 mm
+
+
+       PSF Computation Stage:
+Warning: There are energy levels as great as  53.1% at the edge of the
+               PSF grid.  Increase TGR or NRD (or both) if possible.
+Warning: There are energy levels as great as  32.1% at the edge of the
+               PSF grid.  Increase TGR or NRD (or both) if possible.
+Warning: There are energy levels as great as   7.1% at the edge of the
+               PSF grid.  Increase TGR or NRD (or both) if possible.
+Warning: There are energy levels as great as   3.3% at the edge of the
+               PSF grid.  Increase TGR or NRD (or both) if possible.
+Warning: There are energy levels as great as   2.4% at the edge of the
+               PSF grid.  Increase TGR or NRD (or both) if possible.
+Warning: There are energy levels as great as   1.6% at the edge of the
+               PSF grid.  Increase TGR or NRD (or both) if possible.
+Warning: There are energy levels as great as   1.4% at the edge of the
+               PSF grid.  Increase TGR or NRD (or both) if possible.
+Warning: There are energy levels as great as   1.2% at the edge of the
+               PSF grid.  Increase TGR or NRD (or both) if possible.
+Warning: There are energy levels as great as   1.3% at the edge of the
+               PSF grid.  Increase TGR or NRD (or both) if possible.
+Warning: There are energy levels as great as   1.7% at the edge of the
+               PSF grid.  Increase TGR or NRD (or both) if possible.
+Warning: There are energy levels as great as   1.8% at the edge of the
+               PSF grid.  Increase TGR or NRD (or both) if possible.
+Warning: There are energy levels as great as   3.7% at the edge of the
+               PSF grid.  Increase TGR or NRD (or both) if possible.
+Warning: Vignetting cannot be set for one or more of the synthesized fields.
+               These fields are taken to have vignetting factors of 0.
+Warning: There are energy levels as great as  45.4% at the edge of the
+               PSF grid.  Increase TGR or NRD (or both) if possible.
+Warning: There are energy levels as great as  15.2% at the edge of the
+               PSF grid.  Increase TGR or NRD (or both) if possible.
+Warning: There are energy levels as great as   3.5% at the edge of the
+               PSF grid.  Increase TGR or NRD (or both) if possible.
+Warning: There are energy levels as great as   2.3% at the edge of the
+               PSF grid.  Increase TGR or NRD (or both) if possible.
+Warning: There are energy levels as great as   1.1% at the edge of the
+               PSF grid.  Increase TGR or NRD (or both) if possible.
+             10% complete...
+Warning: There are energy levels as great as   1.0% at the edge of the
+               PSF grid.  Increase TGR or NRD (or both) if possible.
+Warning: There are energy levels as great as   2.0% at the edge of the
+               PSF grid.  Increase TGR or NRD (or both) if possible.
+Warning: There are energy levels as great as   3.0% at the edge of the
+               PSF grid.  Increase TGR or NRD (or both) if possible.
+Warning: There are energy levels as great as  38.6% at the edge of the
+               PSF grid.  Increase TGR or NRD (or both) if possible.
+Warning: There are energy levels as great as   7.6% at the edge of the
+               PSF grid.  Increase TGR or NRD (or both) if possible.
+Warning: There are energy levels as great as  33.3% at the edge of the
+               PSF grid.  Increase TGR or NRD (or both) if possible.
+Warning: There are energy levels as great as   4.3% at the edge of the
+               PSF grid.  Increase TGR or NRD (or both) if possible.
+             25% complete...
+Warning: There are energy levels as great as  28.7% at the edge of the
+               PSF grid.  Increase TGR or NRD (or both) if possible.
+Warning: There are energy levels as great as   2.2% at the edge of the
+               PSF grid.  Increase TGR or NRD (or both) if possible.
+Warning: There are energy levels as great as   1.5% at the edge of the
+               PSF grid.  Increase TGR or NRD (or both) if possible.
+Warning: There are energy levels as great as  27.3% at the edge of the
+               PSF grid.  Increase TGR or NRD (or both) if possible.
+Warning: There are energy levels as great as  26.6% at the edge of the
+               PSF grid.  Increase TGR or NRD (or both) if possible.
+Warning: There are energy levels as great as  28.1% at the edge of the
+               PSF grid.  Increase TGR or NRD (or both) if possible.
+             50% complete...
+Warning: There are energy levels as great as  30.5% at the edge of the
+               PSF grid.  Increase TGR or NRD (or both) if possible.
+Warning: There are energy levels as great as  39.4% at the edge of the
+               PSF grid.  Increase TGR or NRD (or both) if possible.
+Warning: There are energy levels as great as  49.9% at the edge of the
+               PSF grid.  Increase TGR or NRD (or both) if possible.
+Warning: There are energy levels as great as   2.5% at the edge of the
+               PSF grid.  Increase TGR or NRD (or both) if possible.
+Warning: There are energy levels as great as  64.1% at the edge of the
+               PSF grid.  Increase TGR or NRD (or both) if possible.
+Warning: There are energy levels as great as   3.6% at the edge of the
+               PSF grid.  Increase TGR or NRD (or both) if possible.
+             75% complete...
+Warning: There are energy levels as great as  72.5% at the edge of the
+               PSF grid.  Increase TGR or NRD (or both) if possible.
+Warning: There are energy levels as great as  12.7% at the edge of the
+               PSF grid.  Increase TGR or NRD (or both) if possible.
+Warning: There are energy levels as great as   7.2% at the edge of the
+               PSF grid.  Increase TGR or NRD (or both) if possible.
+Warning: There are energy levels as great as  73.8% at the edge of the
+               PSF grid.  Increase TGR or NRD (or both) if possible.
+Warning: There are energy levels as great as  40.7% at the edge of the
+               PSF grid.  Increase TGR or NRD (or both) if possible.
+Warning: There are energy levels as great as  13.0% at the edge of the
+               PSF grid.  Increase TGR or NRD (or both) if possible.
+Warning: There are energy levels as great as   3.8% at the edge of the
+               PSF grid.  Increase TGR or NRD (or both) if possible.
+Warning: There are energy levels as great as   8.0% at the edge of the
+               PSF grid.  Increase TGR or NRD (or both) if possible.
+Warning: There are energy levels as great as  10.2% at the edge of the
+               PSF grid.  Increase TGR or NRD (or both) if possible.
+Warning: There are energy levels as great as   9.1% at the edge of the
+               PSF grid.  Increase TGR or NRD (or both) if possible.
+Warning: There are energy levels as great as  84.3% at the edge of the
+               PSF grid.  Increase TGR or NRD (or both) if possible.
+Warning: There are energy levels as great as  77.4% at the edge of the
+               PSF grid.  Increase TGR or NRD (or both) if possible.
+Warning: There are energy levels as great as  72.7% at the edge of the
+               PSF grid.  Increase TGR or NRD (or both) if possible.
+Warning: There are energy levels as great as  64.8% at the edge of the
+               PSF grid.  Increase TGR or NRD (or both) if possible.
+Warning: There are energy levels as great as  48.7% at the edge of the
+               PSF grid.  Increase TGR or NRD (or both) if possible.
+Warning: There are energy levels as great as  37.0% at the edge of the
+               PSF grid.  Increase TGR or NRD (or both) if possible.
+Warning: There are energy levels as great as  30.3% at the edge of the
+               PSF grid.  Increase TGR or NRD (or both) if possible.
+Warning: There are energy levels as great as  27.8% at the edge of the
+               PSF grid.  Increase TGR or NRD (or both) if possible.
+Warning: There are energy levels as great as  26.4% at the edge of the
+               PSF grid.  Increase TGR or NRD (or both) if possible.
+Warning: There are energy levels as great as  24.0% at the edge of the
+               PSF grid.  Increase TGR or NRD (or both) if possible.
+Warning: There are energy levels as great as  25.9% at the edge of the
+               PSF grid.  Increase TGR or NRD (or both) if possible.
+Warning: There are energy levels as great as  27.9% at the edge of the
+               PSF grid.  Increase TGR or NRD (or both) if possible.
+Warning: There are energy levels as great as  24.5% at the edge of the
+               PSF grid.  Increase TGR or NRD (or both) if possible.
+Warning: There are energy levels as great as  15.0% at the edge of the
+               PSF grid.  Increase TGR or NRD (or both) if possible.
+Warning: There are energy levels as great as  13.8% at the edge of the
+               PSF grid.  Increase TGR or NRD (or both) if possible.
+             100% complete...
+       Image Simulation Stage:
+             10% complete...
+             25% complete...
+             50% complete...
+             75% complete...
+             100% complete...
+       IMSIM output saved as: C:\users\crendon\documents\github\codev_python_com\calibration_star\d_0p70_slm_1p35_ims.bmp
+
+
+Command End:
+
+---------------------------
+
+  Completed for power 1.35 in 1499.35 seconds.
+  Estimated remaining time for this distance: 24.99 minutes.
+---------------------------
+
+  Setting tilt: SCO S13 X -0.019023
+  Applying vignetting: run "C:\CODEV202203_SR1\macro\setvig.seq" 1e-07 0.1 100 NO YES ;GO
+  Running IMS, saving to C:\users\crendon\documents\github\codev_python_com\calibration_star\d_0p70_slm_1p40.bmp...
+
+--- CODE V Console Output ---
+    IMS                                                                              30-Sep-25   9H 42M 33S
+                                                CODE V PC  Version: 2022.03 SR1      CPU clock: 17H 58M  8S
+    User-entered and default apertures are active
+
+
+
+Warning: This system is not isoplanatic at field(s)  2, 3, 4, 5, 6, 7, 8, 9.
+               Any PSF results are of questionable value for assessing
+               the image quality, except in those cases where the user is
+               interested only in the image of a point-like object.  The
+               image quality for the unacceptable fields varies significan-
+               tly over a lateral region of 12 Airy disk diameters.
+
+
+
+Warning: Forcing SYM NON for image simulation since detector convolution is specified.
+       IMS
+
+       1 zoom position is active
+
+       Object Attributes:
+       Input Object File:          C:\users\crendon\documents\github\codev_python_com\star_60_spokes.bmp
+       Object File Type:           8-bit bitmap
+       Object File Resolution:     2700 x 2700
+       Object Mapping:             Object Height, Rectilinear
+       Field Coordinates:          Real Image Height
+       Object Half-diagonal:       4.002224 mm
+       Object Center (X,Y):        0.000000 , 0.000000 mm
+       Object Rotation:            0.000000 degrees
+
+
+       Computation Controls:
+       Transform Grid Size (TGR):       1024
+       Pupil Grid (NRD):                512
+       Image Grid (GRI):                0.000722 mm
+       PSF Array Size:                  15 x 15
+       Rotational Symmetry:             No
+       Detector Size (X,Y):             0.003750 , 0.003750 mm
+
+
+       Color Controls:
+       Simulation Type:               Polychromatic Intensity Analysis
+       System Wavelengths and Weights used for polychromatic intensity calculation
+
+
+       Output Controls:
+       Display Object File?:              Yes
+       Display IMS File(s)?:              Yes
+       Display PSF Diagnostic?:           No
+
+
+       Output IMS Folder:          C:\users\crendon\documents\github\codev_python_com
+       Output IMS File(s):         C:\users\crendon\documents\github\codev_python_com\calibration_star\d_0p70_slm_1p40_ims.bmp
+       Exported IMS data saved as: None specified
+       Color Scale:                Gray Scale
+
+
+
+
+       Image Attributes:
+       Image Semi-diagonal:   4.115326 mm
+       Image pixel size:      0.002156 x 0.002156 mm
+
+
+       PSF Computation Stage:
+Warning: There are energy levels as great as 100.0% at the edge of the
+               PSF grid.  Increase TGR or NRD (or both) if possible.
+Warning: There are energy levels as great as  98.0% at the edge of the
+               PSF grid.  Increase TGR or NRD (or both) if possible.
+Warning: There are energy levels as great as  31.6% at the edge of the
+               PSF grid.  Increase TGR or NRD (or both) if possible.
+Warning: There are energy levels as great as  10.6% at the edge of the
+               PSF grid.  Increase TGR or NRD (or both) if possible.
+Warning: There are energy levels as great as   6.2% at the edge of the
+               PSF grid.  Increase TGR or NRD (or both) if possible.
+Warning: There are energy levels as great as   4.2% at the edge of the
+               PSF grid.  Increase TGR or NRD (or both) if possible.
+Warning: There are energy levels as great as   3.6% at the edge of the
+               PSF grid.  Increase TGR or NRD (or both) if possible.
+Warning: There are energy levels as great as   2.8% at the edge of the
+               PSF grid.  Increase TGR or NRD (or both) if possible.
+Warning: There are energy levels as great as   3.0% at the edge of the
+               PSF grid.  Increase TGR or NRD (or both) if possible.
+Warning: There are energy levels as great as   3.3% at the edge of the
+               PSF grid.  Increase TGR or NRD (or both) if possible.
+Warning: There are energy levels as great as   3.4% at the edge of the
+               PSF grid.  Increase TGR or NRD (or both) if possible.
+Warning: There are energy levels as great as   4.1% at the edge of the
+               PSF grid.  Increase TGR or NRD (or both) if possible.
+Warning: There are energy levels as great as   6.3% at the edge of the
+               PSF grid.  Increase TGR or NRD (or both) if possible.
+Warning: Vignetting cannot be set for one or more of the synthesized fields.
+               These fields are taken to have vignetting factors of 0.
+Warning: There are energy levels as great as  12.8% at the edge of the
+               PSF grid.  Increase TGR or NRD (or both) if possible.
+Warning: There are energy levels as great as   1.8% at the edge of the
+               PSF grid.  Increase TGR or NRD (or both) if possible.
+Warning: There are energy levels as great as  99.4% at the edge of the
+               PSF grid.  Increase TGR or NRD (or both) if possible.
+Warning: There are energy levels as great as  72.6% at the edge of the
+               PSF grid.  Increase TGR or NRD (or both) if possible.
+Warning: There are energy levels as great as  11.1% at the edge of the
+               PSF grid.  Increase TGR or NRD (or both) if possible.
+Warning: There are energy levels as great as   5.5% at the edge of the
+               PSF grid.  Increase TGR or NRD (or both) if possible.
+Warning: There are energy levels as great as   2.0% at the edge of the
+               PSF grid.  Increase TGR or NRD (or both) if possible.
+Warning: There are energy levels as great as   1.3% at the edge of the
+               PSF grid.  Increase TGR or NRD (or both) if possible.
+             10% complete...
+Warning: There are energy levels as great as   1.0% at the edge of the
+               PSF grid.  Increase TGR or NRD (or both) if possible.
+Warning: There are energy levels as great as   1.1% at the edge of the
+               PSF grid.  Increase TGR or NRD (or both) if possible.
+Warning: There are energy levels as great as   1.6% at the edge of the
+               PSF grid.  Increase TGR or NRD (or both) if possible.
+Warning: There are energy levels as great as   2.2% at the edge of the
+               PSF grid.  Increase TGR or NRD (or both) if possible.
+Warning: There are energy levels as great as   6.5% at the edge of the
+               PSF grid.  Increase TGR or NRD (or both) if possible.
+Warning: There are energy levels as great as  12.7% at the edge of the
+               PSF grid.  Increase TGR or NRD (or both) if possible.
+Warning: There are energy levels as great as  98.2% at the edge of the
+               PSF grid.  Increase TGR or NRD (or both) if possible.
+Warning: There are energy levels as great as  43.1% at the edge of the
+               PSF grid.  Increase TGR or NRD (or both) if possible.
+Warning: There are energy levels as great as   2.9% at the edge of the
+               PSF grid.  Increase TGR or NRD (or both) if possible.
+Warning: There are energy levels as great as   3.5% at the edge of the
+               PSF grid.  Increase TGR or NRD (or both) if possible.
+Warning: There are energy levels as great as   4.9% at the edge of the
+               PSF grid.  Increase TGR or NRD (or both) if possible.
+Warning: There are energy levels as great as  92.8% at the edge of the
+               PSF grid.  Increase TGR or NRD (or both) if possible.
+Warning: There are energy levels as great as  20.8% at the edge of the
+               PSF grid.  Increase TGR or NRD (or both) if possible.
+Warning: There are energy levels as great as   1.2% at the edge of the
+               PSF grid.  Increase TGR or NRD (or both) if possible.
+             25% complete...
+Warning: There are energy levels as great as   2.1% at the edge of the
+               PSF grid.  Increase TGR or NRD (or both) if possible.
+Warning: There are energy levels as great as   4.0% at the edge of the
+               PSF grid.  Increase TGR or NRD (or both) if possible.
+Warning: There are energy levels as great as  89.4% at the edge of the
+               PSF grid.  Increase TGR or NRD (or both) if possible.
+Warning: There are energy levels as great as   8.4% at the edge of the
+               PSF grid.  Increase TGR or NRD (or both) if possible.
+Warning: There are energy levels as great as   1.5% at the edge of the
+               PSF grid.  Increase TGR or NRD (or both) if possible.
+Warning: There are energy levels as great as  80.8% at the edge of the
+               PSF grid.  Increase TGR or NRD (or both) if possible.
+Warning: There are energy levels as great as   3.7% at the edge of the
+               PSF grid.  Increase TGR or NRD (or both) if possible.
+Warning: There are energy levels as great as  78.8% at the edge of the
+               PSF grid.  Increase TGR or NRD (or both) if possible.
+Warning: There are energy levels as great as   2.5% at the edge of the
+               PSF grid.  Increase TGR or NRD (or both) if possible.
+Warning: There are energy levels as great as  76.7% at the edge of the
+               PSF grid.  Increase TGR or NRD (or both) if possible.
+Warning: There are energy levels as great as   2.4% at the edge of the
+               PSF grid.  Increase TGR or NRD (or both) if possible.
+             50% complete...
+Warning: There are energy levels as great as  75.0% at the edge of the
+               PSF grid.  Increase TGR or NRD (or both) if possible.
+Warning: There are energy levels as great as  74.6% at the edge of the
+               PSF grid.  Increase TGR or NRD (or both) if possible.
+Warning: There are energy levels as great as  77.8% at the edge of the
+               PSF grid.  Increase TGR or NRD (or both) if possible.
+Warning: There are energy levels as great as   6.1% at the edge of the
+               PSF grid.  Increase TGR or NRD (or both) if possible.
+Warning: There are energy levels as great as  78.9% at the edge of the
+               PSF grid.  Increase TGR or NRD (or both) if possible.
+Warning: There are energy levels as great as  16.6% at the edge of the
+               PSF grid.  Increase TGR or NRD (or both) if possible.
+             75% complete...
+Warning: There are energy levels as great as   5.3% at the edge of the
+               PSF grid.  Increase TGR or NRD (or both) if possible.
+Warning: There are energy levels as great as  10.4% at the edge of the
+               PSF grid.  Increase TGR or NRD (or both) if possible.
+Warning: There are energy levels as great as  80.3% at the edge of the
+               PSF grid.  Increase TGR or NRD (or both) if possible.
+Warning: There are energy levels as great as  54.8% at the edge of the
+               PSF grid.  Increase TGR or NRD (or both) if possible.
+Warning: There are energy levels as great as   3.1% at the edge of the
+               PSF grid.  Increase TGR or NRD (or both) if possible.
+Warning: There are energy levels as great as  11.3% at the edge of the
+               PSF grid.  Increase TGR or NRD (or both) if possible.
+Warning: There are energy levels as great as  31.1% at the edge of the
+               PSF grid.  Increase TGR or NRD (or both) if possible.
+Warning: There are energy levels as great as  85.8% at the edge of the
+               PSF grid.  Increase TGR or NRD (or both) if possible.
+Warning: There are energy levels as great as  77.9% at the edge of the
+               PSF grid.  Increase TGR or NRD (or both) if possible.
+Warning: There are energy levels as great as  55.1% at the edge of the
+               PSF grid.  Increase TGR or NRD (or both) if possible.
+Warning: There are energy levels as great as  16.9% at the edge of the
+               PSF grid.  Increase TGR or NRD (or both) if possible.
+Warning: There are energy levels as great as   2.6% at the edge of the
+               PSF grid.  Increase TGR or NRD (or both) if possible.
+Warning: There are energy levels as great as   8.2% at the edge of the
+               PSF grid.  Increase TGR or NRD (or both) if possible.
+Warning: There are energy levels as great as  21.3% at the edge of the
+               PSF grid.  Increase TGR or NRD (or both) if possible.
+Warning: There are energy levels as great as  44.1% at the edge of the
+               PSF grid.  Increase TGR or NRD (or both) if possible.
+Warning: There are energy levels as great as  53.7% at the edge of the
+               PSF grid.  Increase TGR or NRD (or both) if possible.
+Warning: There are energy levels as great as  37.6% at the edge of the
+               PSF grid.  Increase TGR or NRD (or both) if possible.
+Warning: There are energy levels as great as  87.3% at the edge of the
+               PSF grid.  Increase TGR or NRD (or both) if possible.
+Warning: There are energy levels as great as  84.0% at the edge of the
+               PSF grid.  Increase TGR or NRD (or both) if possible.
+Warning: There are energy levels as great as  80.9% at the edge of the
+               PSF grid.  Increase TGR or NRD (or both) if possible.
+Warning: There are energy levels as great as  78.5% at the edge of the
+               PSF grid.  Increase TGR or NRD (or both) if possible.
+Warning: There are energy levels as great as  77.4% at the edge of the
+               PSF grid.  Increase TGR or NRD (or both) if possible.
+Warning: There are energy levels as great as  75.7% at the edge of the
+               PSF grid.  Increase TGR or NRD (or both) if possible.
+Warning: There are energy levels as great as  76.0% at the edge of the
+               PSF grid.  Increase TGR or NRD (or both) if possible.
+Warning: There are energy levels as great as  75.1% at the edge of the
+               PSF grid.  Increase TGR or NRD (or both) if possible.
+Warning: There are energy levels as great as  79.3% at the edge of the
+               PSF grid.  Increase TGR or NRD (or both) if possible.
+Warning: There are energy levels as great as  75.6% at the edge of the
+               PSF grid.  Increase TGR or NRD (or both) if possible.
+Warning: There are energy levels as great as  82.4% at the edge of the
+               PSF grid.  Increase TGR or NRD (or both) if possible.
+Warning: There are energy levels as great as  86.8% at the edge of the
+               PSF grid.  Increase TGR or NRD (or both) if possible.
+Warning: There are energy levels as great as  77.0% at the edge of the
+               PSF grid.  Increase TGR or NRD (or both) if possible.
+Warning: There are energy levels as great as  49.9% at the edge of the
+               PSF grid.  Increase TGR or NRD (or both) if possible.
+Warning: There are energy levels as great as  37.4% at the edge of the
+               PSF grid.  Increase TGR or NRD (or both) if possible.
+             100% complete...
+       Image Simulation Stage:
+             10% complete...
+             25% complete...
+             50% complete...
+             75% complete...
+             100% complete...
+       IMSIM output saved as: C:\users\crendon\documents\github\codev_python_com\calibration_star\d_0p70_slm_1p40_ims.bmp
+
+
+Command End:
+
+---------------------------
+
+  Completed for power 1.40 in 1487.45 seconds.
+  Estimated remaining time for this distance: 0.00 minutes.
+---------------------------
+
+
+--- Starting task for distance: 0.8 ---
+Setting object distance to 800.0 mm...
+  Setting tilt: SCO S13 X -0.003805
+  Applying vignetting: run "C:\CODEV202203_SR1\macro\setvig.seq" 1e-07 0.1 100 NO YES ;GO
+  Running IMS, saving to C:\users\crendon\documents\github\codev_python_com\calibration_star\d_0p80_slm_0p28.bmp...
+
+--- CODE V Console Output ---
+    IMS                                                                              30-Sep-25  10H  7M 21S
+                                                CODE V PC  Version: 2022.03 SR1      CPU clock: 18H 22M 56S
+    User-entered and default apertures are active
+
+
+
+Warning: This system is not isoplanatic at field(s)  2, 3, 4, 5, 6, 7, 8, 9.
+               Any PSF results are of questionable value for assessing
+               the image quality, except in those cases where the user is
+               interested only in the image of a point-like object.  The
+               image quality for the unacceptable fields varies significan-
+               tly over a lateral region of 12 Airy disk diameters.
+
+
+
+Warning: Forcing SYM NON for image simulation since detector convolution is specified.
+       IMS
+
+       1 zoom position is active
+
+       Object Attributes:
+       Input Object File:          C:\users\crendon\documents\github\codev_python_com\star_60_spokes.bmp
+       Object File Type:           8-bit bitmap
+       Object File Resolution:     2700 x 2700
+       Object Mapping:             Object Height, Rectilinear
+       Field Coordinates:          Real Image Height
+       Object Half-diagonal:       4.002224 mm
+       Object Center (X,Y):        0.000000 , 0.000000 mm
+       Object Rotation:            0.000000 degrees
+
+
+       Computation Controls:
+       Transform Grid Size (TGR):       1024
+       Pupil Grid (NRD):                512
+       Image Grid (GRI):                0.000730 mm
+       PSF Array Size:                  15 x 15
+       Rotational Symmetry:             No
+       Detector Size (X,Y):             0.003750 , 0.003750 mm
+
+
+       Color Controls:
+       Simulation Type:               Polychromatic Intensity Analysis
+       System Wavelengths and Weights used for polychromatic intensity calculation
+
+
+       Output Controls:
+       Display Object File?:              Yes
+       Display IMS File(s)?:              Yes
+       Display PSF Diagnostic?:           No
+
+
+       Output IMS Folder:          C:\users\crendon\documents\github\codev_python_com
+       Output IMS File(s):         C:\users\crendon\documents\github\codev_python_com\calibration_star\d_0p80_slm_0p28_ims.bmp
+       Exported IMS data saved as: None specified
+       Color Scale:                Gray Scale
+
+
+
+
+       Image Attributes:
+       Image Semi-diagonal:   4.045116 mm
+       Image pixel size:      0.002119 x 0.002119 mm
+
+
+       PSF Computation Stage:
+             10% complete...
+             25% complete...
+             50% complete...
+             75% complete...
+             100% complete...
+       Image Simulation Stage:
+             10% complete...
+             25% complete...
+             50% complete...
+             75% complete...
+             100% complete...
+       IMSIM output saved as: C:\users\crendon\documents\github\codev_python_com\calibration_star\d_0p80_slm_0p28_ims.bmp
+
+
+Command End:
+
+---------------------------
+
+  Completed for power 0.28 in 885.34 seconds.
+  Estimated remaining time for this distance: 295.11 minutes.
+---------------------------
+
+  Setting tilt: SCO S13 X -0.004484
+  Applying vignetting: run "C:\CODEV202203_SR1\macro\setvig.seq" 1e-07 0.1 100 NO YES ;GO
+  Running IMS, saving to C:\users\crendon\documents\github\codev_python_com\calibration_star\d_0p80_slm_0p33.bmp...
+
+--- CODE V Console Output ---
+    IMS                                                                              30-Sep-25  10H 22M  6S
+                                                CODE V PC  Version: 2022.03 SR1      CPU clock: 18H 37M 41S
+    User-entered and default apertures are active
+
+
+
+Warning: This system is not isoplanatic at field(s)  2, 3, 4, 5, 6, 7, 8, 9.
+               Any PSF results are of questionable value for assessing
+               the image quality, except in those cases where the user is
+               interested only in the image of a point-like object.  The
+               image quality for the unacceptable fields varies significan-
+               tly over a lateral region of 12 Airy disk diameters.
+
+
+
+Warning: Forcing SYM NON for image simulation since detector convolution is specified.
+       IMS
+
+       1 zoom position is active
+
+       Object Attributes:
+       Input Object File:          C:\users\crendon\documents\github\codev_python_com\star_60_spokes.bmp
+       Object File Type:           8-bit bitmap
+       Object File Resolution:     2700 x 2700
+       Object Mapping:             Object Height, Rectilinear
+       Field Coordinates:          Real Image Height
+       Object Half-diagonal:       4.002224 mm
+       Object Center (X,Y):        0.000000 , 0.000000 mm
+       Object Rotation:            0.000000 degrees
+
+
+       Computation Controls:
+       Transform Grid Size (TGR):       1024
+       Pupil Grid (NRD):                512
+       Image Grid (GRI):                0.000731 mm
+       PSF Array Size:                  15 x 15
+       Rotational Symmetry:             No
+       Detector Size (X,Y):             0.003750 , 0.003750 mm
+
+
+       Color Controls:
+       Simulation Type:               Polychromatic Intensity Analysis
+       System Wavelengths and Weights used for polychromatic intensity calculation
+
+
+       Output Controls:
+       Display Object File?:              Yes
+       Display IMS File(s)?:              Yes
+       Display PSF Diagnostic?:           No
+
+
+       Output IMS Folder:          C:\users\crendon\documents\github\codev_python_com
+       Output IMS File(s):         C:\users\crendon\documents\github\codev_python_com\calibration_star\d_0p80_slm_0p33_ims.bmp
+       Exported IMS data saved as: None specified
+       Color Scale:                Gray Scale
+
+
+
+
+       Image Attributes:
+       Image Semi-diagonal:   4.047399 mm
+       Image pixel size:      0.002120 x 0.002120 mm
+
+
+       PSF Computation Stage:
+             10% complete...
+             25% complete...
+             50% complete...
+             75% complete...
+             100% complete...
+       Image Simulation Stage:
+             10% complete...
+             25% complete...
+             50% complete...
+             75% complete...
+             100% complete...
+       IMSIM output saved as: C:\users\crendon\documents\github\codev_python_com\calibration_star\d_0p80_slm_0p33_ims.bmp
+
+
+Command End:
+
+---------------------------
+
+  Completed for power 0.33 in 865.16 seconds.
+  Estimated remaining time for this distance: 273.97 minutes.
+---------------------------
+
+  Setting tilt: SCO S13 X -0.005163
+  Applying vignetting: run "C:\CODEV202203_SR1\macro\setvig.seq" 1e-07 0.1 100 NO YES ;GO
+  Running IMS, saving to C:\users\crendon\documents\github\codev_python_com\calibration_star\d_0p80_slm_0p38.bmp...
+
+
+
+
+
+
+
+******************************************************************************************************************************
+------------------------------------------------------------------------- new snapshot ----------------------------------------
+******************************************************************************************************************************
+
+
+       Input Object File:          C:\users\crendon\documents\github\codev_python_com\star_60_spokes.bmp
+       Object File Type:           8-bit bitmap
+       Object File Resolution:     2700 x 2700
+       Object Mapping:             Object Height, Rectilinear
+       Field Coordinates:          Real Image Height
+       Object Half-diagonal:       4.002224 mm
+       Object Center (X,Y):        0.000000 , 0.000000 mm
+       Object Rotation:            0.000000 degrees
+
+
+       Computation Controls:
+       Transform Grid Size (TGR):       1024
+       Pupil Grid (NRD):                512
+       Image Grid (GRI):                0.000732 mm
+       PSF Array Size:                  15 x 15
+       Rotational Symmetry:             No
+       Detector Size (X,Y):             0.003750 , 0.003750 mm
+
+
+       Color Controls:
+       Simulation Type:               Polychromatic Intensity Analysis
+       System Wavelengths and Weights used for polychromatic intensity calculation
+
+
+       Output Controls:
+       Display Object File?:              Yes
+       Display IMS File(s)?:              Yes
+       Display PSF Diagnostic?:           No
+
+
+       Output IMS Folder:          C:\users\crendon\documents\github\codev_python_com
+       Output IMS File(s):         C:\users\crendon\documents\github\codev_python_com\calibration_star\d_0p80_slm_1p03_ims.bmp
+       Exported IMS data saved as: None specified
+       Color Scale:                Gray Scale
+
+
+
+
+       Image Attributes:
+       Image Semi-diagonal:   4.088541 mm
+       Image pixel size:      0.002142 x 0.002142 mm
+
+
+       PSF Computation Stage:
+Warning: There are energy levels as great as   1.1% at the edge of the
+               PSF grid.  Increase TGR or NRD (or both) if possible.
+             10% complete...
+             25% complete...
+             50% complete...
+             75% complete...
+Warning: There are energy levels as great as   1.2% at the edge of the
+               PSF grid.  Increase TGR or NRD (or both) if possible.
+             100% complete...
+       Image Simulation Stage:
+             10% complete...
+             25% complete...
+             50% complete...
+             75% complete...
+             100% complete...
+       IMSIM output saved as: C:\users\crendon\documents\github\codev_python_com\calibration_star\d_0p80_slm_1p03_ims.bmp
+
+
+Command End:
+
+---------------------------
+
+  Completed for power 1.03 in 1317.50 seconds.
+  Estimated remaining time for this distance: 109.79 minutes.
+---------------------------
+
+  Setting tilt: SCO S13 X -0.014675
+  Applying vignetting: run "C:\CODEV202203_SR1\macro\setvig.seq" 1e-07 0.1 100 NO YES ;GO
+  Running IMS, saving to C:\users\crendon\documents\github\codev_python_com\calibration_star\d_0p80_slm_1p08.bmp...
+
+--- CODE V Console Output ---
+    IMS                                                
+                              30-Sep-25  14H 20M 43S   
+                                                CODE V PC  Version: 2022.03 SR1      CPU clock: 22H 36M 18S   
+    User-entered and default apertures are active      
+
+
+
+Warning: This system is not isoplanatic at field(s)  2, 3, 4, 5, 6, 7, 8, 9.
+               Any PSF results are of questionable value for assessing
+               the image quality, except in those cases where the user is
+               interested only in the image of a point-like object.  The
+               image quality for the unacceptable fields varies significan-
+               tly over a lateral region of 12 Airy disk diameters.
+
+
+
+Warning: Forcing SYM NON for image simulation since detector convolution is specified.
+       IMS
+
+       1 zoom position is active
+
+       Object Attributes:
+       Input Object File:          C:\users\crendon\documents\github\codev_python_com\star_60_spokes.bmp      
+       Object File Type:           8-bit bitmap        
+       Object File Resolution:     2700 x 2700
+       Object Mapping:             Object Height, Rectilinear
+       Field Coordinates:          Real Image Height   
+       Object Half-diagonal:       4.002224 mm
+       Object Center (X,Y):        0.000000 , 0.000000 mm
+       Object Rotation:            0.000000 degrees    
+
+
+       Computation Controls:
+       Transform Grid Size (TGR):       1024
+       Pupil Grid (NRD):                512
+       Image Grid (GRI):                0.000731 mm    
+       PSF Array Size:                  15 x 15        
+       Rotational Symmetry:             No
+       Detector Size (X,Y):             0.003750 , 0.003750 mm
+
+
+       Color Controls:
+       Simulation Type:               Polychromatic Intensity Analysis
+       System Wavelengths and Weights used for polychromatic intensity calculation
+
+
+       Output Controls:
+       Display Object File?:              Yes
+       Display IMS File(s)?:              Yes
+       Display PSF Diagnostic?:           No
+
+
+       Output IMS Folder:          C:\users\crendon\documents\github\codev_python_com
+       Output IMS File(s):         C:\users\crendon\documents\github\codev_python_com\calibration_star\d_0p80_slm_1p08_ims.bmp
+       Exported IMS data saved as: None specified      
+       Color Scale:                Gray Scale
+
+
+
+
+       Image Attributes:
+       Image Semi-diagonal:   4.092059 mm
+       Image pixel size:      0.002143 x 0.002143 mm   
+
+
+       PSF Computation Stage:
+Warning: There are energy levels as great as   1.4% at the edge of the
+               PSF grid.  Increase TGR or NRD (or both) if possible.
+Warning: There are energy levels as great as   1.2% at the edge of the
+               PSF grid.  Increase TGR or NRD (or both) if possible.
+             10% complete...
+             25% complete...
+             50% complete...
+             75% complete...
+Warning: There are energy levels as great as   1.8% at the edge of the
+               PSF grid.  Increase TGR or NRD (or both) if possible.
+Warning: There are energy levels as great as   3.3% at the edge of the
+               PSF grid.  Increase TGR or NRD (or both) if possible.
+Warning: There are energy levels as great as   1.5% at the edge of the
+               PSF grid.  Increase TGR or NRD (or both) if possible.
+Warning: There are energy levels as great as   1.3% at the edge of the
+               PSF grid.  Increase TGR or NRD (or both) if possible.
+Warning: There are energy levels as great as   1.1% at the edge of the
+               PSF grid.  Increase TGR or NRD (or both) if possible.
+             100% complete...
+       Image Simulation Stage:
+             10% complete...
+             25% complete...
+             50% complete...
+             75% complete...
+             100% complete...
+       IMSIM output saved as: C:\users\crendon\documents\github\codev_python_com\calibration_star\d_0p80_slm_1p08_ims.bmp
+
+
+Command End:
+
+---------------------------
+
+  Completed for power 1.08 in 1378.91 seconds.
+  Estimated remaining time for this distance: 91.93 minutes.
+---------------------------
+
+  Setting tilt: SCO S13 X -0.015354
+  Applying vignetting: run "C:\CODEV202203_SR1\macro\setvig.seq" 1e-07 0.1 100 NO YES ;GO
+  Running IMS, saving to C:\users\crendon\documents\github\codev_python_com\calibration_star\d_0p80_slm_1p13.bmp...
+
+--- CODE V Console Output ---
+    IMS                                                
+                              30-Sep-25  14H 43M 42S   
+                                                CODE V PC  Version: 2022.03 SR1      CPU clock: 22H 59M 17S   
+    User-entered and default apertures are active      
+
+
+
+Warning: This system is not isoplanatic at field(s)  2, 3, 4, 5, 6, 7, 8, 9.
+               Any PSF results are of questionable value for assessing
+               the image quality, except in those cases where the user is
+               interested only in the image of a point-like object.  The
+               image quality for the unacceptable fields varies significan-
+               tly over a lateral region of 12 Airy disk diameters.
+
+
+
+Warning: Forcing SYM NON for image simulation since detector convolution is specified.
+       IMS
+
+       1 zoom position is active
+
+       Object Attributes:
+       Input Object File:          C:\users\crendon\documents\github\codev_python_com\star_60_spokes.bmp      
+       Object File Type:           8-bit bitmap        
+       Object File Resolution:     2700 x 2700
+       Object Mapping:             Object Height, Rectilinear
+       Field Coordinates:          Real Image Height   
+       Object Half-diagonal:       4.002224 mm
+       Object Center (X,Y):        0.000000 , 0.000000 mm
+       Object Rotation:            0.000000 degrees    
+
+
+       Computation Controls:
+       Transform Grid Size (TGR):       1024
+       Pupil Grid (NRD):                512
+       Image Grid (GRI):                0.000731 mm    
+       PSF Array Size:                  15 x 15        
+       Rotational Symmetry:             No
+       Detector Size (X,Y):             0.003750 , 0.003750 mm
+
+
+       Color Controls:
+       Simulation Type:               Polychromatic Intensity Analysis
+       System Wavelengths and Weights used for polychromatic intensity calculation
+
+
+       Output Controls:
+       Display Object File?:              Yes
+       Display IMS File(s)?:              Yes
+       Display PSF Diagnostic?:           No
+
+
+       Output IMS Folder:          C:\users\crendon\documents\github\codev_python_com
+       Output IMS File(s):         C:\users\crendon\documents\github\codev_python_com\calibration_star\d_0p80_slm_1p13_ims.bmp
+       Exported IMS data saved as: None specified      
+       Color Scale:                Gray Scale
+
+
+
+
+       Image Attributes:
+       Image Semi-diagonal:   4.095572 mm
+       Image pixel size:      0.002145 x 0.002145 mm   
+
+
+       PSF Computation Stage:
+Warning: There are energy levels as great as   2.9% at the edge of the
+               PSF grid.  Increase TGR or NRD (or both) if possible.
+Warning: There are energy levels as great as   1.7% at the edge of the
+               PSF grid.  Increase TGR or NRD (or both) if possible.
+Warning: There are energy levels as great as   1.3% at the edge of the
+               PSF grid.  Increase TGR or NRD (or both) if possible.
+Warning: There are energy levels as great as   2.6% at the edge of the
+               PSF grid.  Increase TGR or NRD (or both) if possible.
+             10% complete...
+Warning: There are energy levels as great as   2.1% at the edge of the
+               PSF grid.  Increase TGR or NRD (or both) if possible.
+Warning: There are energy levels as great as   1.5% at the edge of the
+               PSF grid.  Increase TGR or NRD (or both) if possible.
+             25% complete...
+Warning: There are energy levels as great as   1.1% at the edge of the
+               PSF grid.  Increase TGR or NRD (or both) if possible.
+             50% complete...
+Warning: There are energy levels as great as   1.4% at the edge of the
+               PSF grid.  Increase TGR or NRD (or both) if possible.
+Warning: There are energy levels as great as   1.6% at the edge of the
+               PSF grid.  Increase TGR or NRD (or both) if possible.
+Warning: There are energy levels as great as   2.3% at the edge of the
+               PSF grid.  Increase TGR or NRD (or both) if possible.
+             75% complete...
+Warning: There are energy levels as great as   3.6% at the edge of the
+               PSF grid.  Increase TGR or NRD (or both) if possible.
+Warning: There are energy levels as great as   6.7% at the edge of the
+               PSF grid.  Increase TGR or NRD (or both) if possible.
+Warning: There are energy levels as great as  13.5% at the edge of the
+               PSF grid.  Increase TGR or NRD (or both) if possible.
+Warning: There are energy levels as great as   4.2% at the edge of the
+               PSF grid.  Increase TGR or NRD (or both) if possible.
+Warning: There are energy levels as great as   3.5% at the edge of the
+               PSF grid.  Increase TGR or NRD (or both) if possible.
+Warning: There are energy levels as great as   1.2% at the edge of the
+               PSF grid.  Increase TGR or NRD (or both) if possible.
+Warning: There are energy levels as great as   1.8% at the edge of the
+               PSF grid.  Increase TGR or NRD (or both) if possible.
+Warning: There are energy levels as great as   1.9% at the edge of the
+               PSF grid.  Increase TGR or NRD (or both) if possible.
+Warning: There are energy levels as great as   2.0% at the edge of the
+               PSF grid.  Increase TGR or NRD (or both) if possible.
+             100% complete...
+       Image Simulation Stage:
+             10% complete...
+             25% complete...
+             50% complete...
+             75% complete...
+             100% complete...
+       IMSIM output saved as: C:\users\crendon\documents\github\codev_python_com\calibration_star\d_0p80_slm_1p13_ims.bmp
+
+
+Command End:
+
+---------------------------
+
+  Completed for power 1.13 in 1449.21 seconds.
+  Estimated remaining time for this distance: 72.46 minutes.
+---------------------------
+
+  Setting tilt: SCO S13 X -0.016034
+  Applying vignetting: run "C:\CODEV202203_SR1\macro\setvig.seq" 1e-07 0.1 100 NO YES ;GO
+  Running IMS, saving to C:\users\crendon\documents\github\codev_python_com\calibration_star\d_0p80_slm_1p18.bmp...
+
+--- CODE V Console Output ---
+    IMS                                                
+                              30-Sep-25  15H  7M 52S   
+                                                CODE V PC  Version: 2022.03 SR1      CPU clock: 23H 23M 27S   
+    User-entered and default apertures are active      
+
+
+
+Warning: This system is not isoplanatic at field(s)  2, 3, 4, 5, 6, 7, 8, 9.
+               Any PSF results are of questionable value for assessing
+               the image quality, except in those cases where the user is
+               interested only in the image of a point-like object.  The
+               image quality for the unacceptable fields varies significan-
+               tly over a lateral region of 12 Airy disk diameters.
+
+
+
+Warning: Forcing SYM NON for image simulation since detector convolution is specified.
+       IMS
+
+       1 zoom position is active
+
+       Object Attributes:
+       Input Object File:          C:\users\crendon\documents\github\codev_python_com\star_60_spokes.bmp      
+       Object File Type:           8-bit bitmap        
+       Object File Resolution:     2700 x 2700
+       Object Mapping:             Object Height, Rectilinear
+       Field Coordinates:          Real Image Height   
+       Object Half-diagonal:       4.002224 mm
+       Object Center (X,Y):        0.000000 , 0.000000 mm
+       Object Rotation:            0.000000 degrees    
+
+
+       Computation Controls:
+       Transform Grid Size (TGR):       1024
+       Pupil Grid (NRD):                512
+       Image Grid (GRI):                0.000731 mm    
+       PSF Array Size:                  15 x 15        
+       Rotational Symmetry:             No
+       Detector Size (X,Y):             0.003750 , 0.003750 mm
+
+
+       Color Controls:
+       Simulation Type:               Polychromatic Intensity Analysis
+       System Wavelengths and Weights used for polychromatic intensity calculation
+
+
+       Output Controls:
+       Display Object File?:              Yes
+       Display IMS File(s)?:              Yes
+       Display PSF Diagnostic?:           No
+
+
+       Output IMS Folder:          C:\users\crendon\documents\github\codev_python_com
+       Output IMS File(s):         C:\users\crendon\documents\github\codev_python_com\calibration_star\d_0p80_slm_1p18_ims.bmp
+       Exported IMS data saved as: None specified      
+       Color Scale:                Gray Scale
+
+
+
+
+       Image Attributes:
+       Image Semi-diagonal:   4.099083 mm
+       Image pixel size:      0.002147 x 0.002147 mm   
+
+
+       PSF Computation Stage:
+Warning: There are energy levels as great as   9.0% at the edge of the
+               PSF grid.  Increase TGR or NRD (or both) if possible.
+Warning: There are energy levels as great as   3.7% at the edge of the
+               PSF grid.  Increase TGR or NRD (or both) if possible.
+Warning: There are energy levels as great as   2.1% at the edge of the
+               PSF grid.  Increase TGR or NRD (or both) if possible.
+Warning: There are energy levels as great as   1.4% at the edge of the
+               PSF grid.  Increase TGR or NRD (or both) if possible.
+Warning: There are energy levels as great as   1.2% at the edge of the
+               PSF grid.  Increase TGR or NRD (or both) if possible.
+Warning: There are energy levels as great as   1.0% at the edge of the
+               PSF grid.  Increase TGR or NRD (or both) if possible.
+Warning: There are energy levels as great as   7.3% at the edge of the
+               PSF grid.  Increase TGR or NRD (or both) if possible.
+Warning: There are energy levels as great as   2.4% at the edge of the
+               PSF grid.  Increase TGR or NRD (or both) if possible.
+             10% complete...
+Warning: There are energy levels as great as   1.1% at the edge of the
+               PSF grid.  Increase TGR or NRD (or both) if possible.
+Warning: There are energy levels as great as   6.3% at the edge of the
+               PSF grid.  Increase TGR or NRD (or both) if possible.
+Warning: There are energy levels as great as   1.7% at the edge of the
+               PSF grid.  Increase TGR or NRD (or both) if possible.
+Warning: There are energy levels as great as   4.6% at the edge of the
+               PSF grid.  Increase TGR or NRD (or both) if possible.
+             25% complete...
+Warning: There are energy levels as great as   3.8% at the edge of the
+               PSF grid.  Increase TGR or NRD (or both) if possible.
+Warning: There are energy levels as great as   3.3% at the edge of the
+               PSF grid.  Increase TGR or NRD (or both) if possible.
+Warning: There are energy levels as great as   3.4% at the edge of the
+               PSF grid.  Increase TGR or NRD (or both) if possible.
+             50% complete...
+Warning: There are energy levels as great as   4.3% at the edge of the
+               PSF grid.  Increase TGR or NRD (or both) if possible.
+Warning: There are energy levels as great as   5.7% at the edge of the
+               PSF grid.  Increase TGR or NRD (or both) if possible.
+Warning: There are energy levels as great as   9.4% at the edge of the
+               PSF grid.  Increase TGR or NRD (or both) if possible.
+             75% complete...
+Warning: There are energy levels as great as   1.5% at the edge of the
+               PSF grid.  Increase TGR or NRD (or both) if possible.
+Warning: There are energy levels as great as  17.6% at the edge of the
+               PSF grid.  Increase TGR or NRD (or both) if possible.
+Warning: There are energy levels as great as   2.0% at the edge of the
+               PSF grid.  Increase TGR or NRD (or both) if possible.
+Warning: There are energy levels as great as   1.3% at the edge of the
+               PSF grid.  Increase TGR or NRD (or both) if possible.
+Warning: There are energy levels as great as  33.1% at the edge of the
+               PSF grid.  Increase TGR or NRD (or both) if possible.
+Warning: There are energy levels as great as   5.0% at the edge of the
+               PSF grid.  Increase TGR or NRD (or both) if possible.
+Warning: There are energy levels as great as   1.8% at the edge of the
+               PSF grid.  Increase TGR or NRD (or both) if possible.
+Warning: There are energy levels as great as   2.9% at the edge of the
+               PSF grid.  Increase TGR or NRD (or both) if possible.
+Warning: There are energy levels as great as  55.5% at the edge of the
+               PSF grid.  Increase TGR or NRD (or both) if possible.
+Warning: There are energy levels as great as  19.0% at the edge of the
+               PSF grid.  Increase TGR or NRD (or both) if possible.
+Warning: There are energy levels as great as  17.3% at the edge of the
+               PSF grid.  Increase TGR or NRD (or both) if possible.
+Warning: There are energy levels as great as   9.1% at the edge of the
+               PSF grid.  Increase TGR or NRD (or both) if possible.
+Warning: There are energy levels as great as   5.8% at the edge of the
+               PSF grid.  Increase TGR or NRD (or both) if possible.
+Warning: There are energy levels as great as   4.2% at the edge of the
+               PSF grid.  Increase TGR or NRD (or both) if possible.
+Warning: There are energy levels as great as   3.5% at the edge of the
+               PSF grid.  Increase TGR or NRD (or both) if possible.
+Warning: There are energy levels as great as   4.0% at the edge of the
+               PSF grid.  Increase TGR or NRD (or both) if possible.
+             100% complete...
+       Image Simulation Stage:
+             10% complete...
+             25% complete...
+             50% complete...
+             75% complete...
+             100% complete...
+       IMSIM output saved as: C:\users\crendon\documents\github\codev_python_com\calibration_star\d_0p80_slm_1p18_ims.bmp
+
+
+Command End:
+
+---------------------------
+
+  Completed for power 1.18 in 1514.32 seconds.
+  Estimated remaining time for this distance: 50.48 minutes.
+---------------------------
+
+  Setting tilt: SCO S13 X -0.016713
+  Applying vignetting: run "C:\CODEV202203_SR1\macro\setvig.seq" 1e-07 0.1 100 NO YES ;GO
+  Running IMS, saving to C:\users\crendon\documents\github\codev_python_com\calibration_star\d_0p80_slm_1p23.bmp...
+
+--- CODE V Console Output ---
+    IMS                                                
+                              30-Sep-25  15H 33M  6S   
+                                                CODE V PC  Version: 2022.03 SR1      CPU clock: 23H 48M 41S   
+    User-entered and default apertures are active      
+
+
+
+Warning: This system is not isoplanatic at field(s)  2, 3, 4, 5, 6, 7, 8, 9.
+               Any PSF results are of questionable value for assessing
+               the image quality, except in those cases where the user is
+               interested only in the image of a point-like object.  The
+               image quality for the unacceptable fields varies significan-
+               tly over a lateral region of 12 Airy disk diameters.
+
+
+
+Warning: Forcing SYM NON for image simulation since detector convolution is specified.
+       IMS
+
+       1 zoom position is active
+
+       Object Attributes:
+       Input Object File:          C:\users\crendon\documents\github\codev_python_com\star_60_spokes.bmp      
+       Object File Type:           8-bit bitmap        
+       Object File Resolution:     2700 x 2700
+       Object Mapping:             Object Height, Rectilinear
+       Field Coordinates:          Real Image Height   
+       Object Half-diagonal:       4.002224 mm
+       Object Center (X,Y):        0.000000 , 0.000000 mm
+       Object Rotation:            0.000000 degrees    
+
+
+       Computation Controls:
+       Transform Grid Size (TGR):       1024
+       Pupil Grid (NRD):                512
+       Image Grid (GRI):                0.000730 mm    
+       PSF Array Size:                  15 x 15        
+       Rotational Symmetry:             No
+       Detector Size (X,Y):             0.003750 , 0.003750 mm
+
+
+       Color Controls:
+       Simulation Type:               Polychromatic Intensity Analysis
+       System Wavelengths and Weights used for polychromatic intensity calculation
+
+
+       Output Controls:
+       Display Object File?:              Yes
+       Display IMS File(s)?:              Yes
+       Display PSF Diagnostic?:           No
+
+
+       Output IMS Folder:          C:\users\crendon\documents\github\codev_python_com
+       Output IMS File(s):         C:\users\crendon\documents\github\codev_python_com\calibration_star\d_0p80_slm_1p23_ims.bmp
+       Exported IMS data saved as: None specified      
+       Color Scale:                Gray Scale
+
+
+
+
+       Image Attributes:
+       Image Semi-diagonal:   4.102583 mm
+       Image pixel size:      0.002149 x 0.002149 mm   
+
+
+       PSF Computation Stage:
+Warning: There are energy levels as great as  36.3% at the edge of the
+               PSF grid.  Increase TGR or NRD (or both) if possible.
+Warning: There are energy levels as great as  17.6% at the edge of the
+               PSF grid.  Increase TGR or NRD (or both) if possible.
+Warning: There are energy levels as great as   4.2% at the edge of the
+               PSF grid.  Increase TGR or NRD (or both) if possible.
+Warning: There are energy levels as great as   2.9% at the edge of the
+               PSF grid.  Increase TGR or NRD (or both) if possible.
+Warning: There are energy levels as great as   1.9% at the edge of the
+               PSF grid.  Increase TGR or NRD (or both) if possible.
+Warning: There are energy levels as great as   1.7% at the edge of the
+               PSF grid.  Increase TGR or NRD (or both) if possible.
+Warning: There are energy levels as great as   1.5% at the edge of the
+               PSF grid.  Increase TGR or NRD (or both) if possible.
+Warning: There are energy levels as great as   1.4% at the edge of the
+               PSF grid.  Increase TGR or NRD (or both) if possible.
+Warning: There are energy levels as great as   1.3% at the edge of the
+               PSF grid.  Increase TGR or NRD (or both) if possible.
+Warning: There are energy levels as great as   1.2% at the edge of the
+               PSF grid.  Increase TGR or NRD (or both) if possible.
+Warning: There are energy levels as great as   1.8% at the edge of the
+               PSF grid.  Increase TGR or NRD (or both) if possible.
+Warning: There are energy levels as great as   3.3% at the edge of the
+               PSF grid.  Increase TGR or NRD (or both) if possible.
+Warning: Vignetting cannot be set for one or more of the synthesized fields.
+               These fields are taken to have vignetting factors of 0.
+Warning: There are energy levels as great as  30.0% at the edge of the
+               PSF grid.  Increase TGR or NRD (or both) if possible.
+Warning: There are energy levels as great as   9.4% at the edge of the
+               PSF grid.  Increase TGR or NRD (or both) if possible.
+Warning: There are energy levels as great as   3.0% at the edge of the
+               PSF grid.  Increase TGR or NRD (or both) if possible.
+             10% complete...
+Warning: There are energy levels as great as   2.3% at the edge of the
+               PSF grid.  Increase TGR or NRD (or both) if possible.
+Warning: There are energy levels as great as  26.1% at the edge of the
+               PSF grid.  Increase TGR or NRD (or both) if possible.
+Warning: There are energy levels as great as   4.7% at the edge of the
+               PSF grid.  Increase TGR or NRD (or both) if possible.
+Warning: There are energy levels as great as  20.3% at the edge of the
+               PSF grid.  Increase TGR or NRD (or both) if possible.
+             25% complete...
+Warning: There are energy levels as great as  15.9% at the edge of the
+               PSF grid.  Increase TGR or NRD (or both) if possible.
+Warning: There are energy levels as great as  15.3% at the edge of the
+               PSF grid.  Increase TGR or NRD (or both) if possible.
+Warning: There are energy levels as great as  14.5% at the edge of the
+               PSF grid.  Increase TGR or NRD (or both) if possible.
+Warning: There are energy levels as great as  14.1% at the edge of the
+               PSF grid.  Increase TGR or NRD (or both) if possible.
+             50% complete...
+Warning: There are energy levels as great as  15.0% at the edge of the
+               PSF grid.  Increase TGR or NRD (or both) if possible.
+Warning: There are energy levels as great as   1.6% at the edge of the
+               PSF grid.  Increase TGR or NRD (or both) if possible.
+Warning: There are energy levels as great as  22.3% at the edge of the
+               PSF grid.  Increase TGR or NRD (or both) if possible.
+Warning: There are energy levels as great as   1.1% at the edge of the
+               PSF grid.  Increase TGR or NRD (or both) if possible.
+Warning: There are energy levels as great as  29.9% at the edge of the
+               PSF grid.  Increase TGR or NRD (or both) if possible.
+Warning: There are energy levels as great as   2.0% at the edge of the
+               PSF grid.  Increase TGR or NRD (or both) if possible.
+Warning: There are energy levels as great as  46.9% at the edge of the
+               PSF grid.  Increase TGR or NRD (or both) if possible.
+             75% complete...
+Warning: There are energy levels as great as   2.8% at the edge of the
+               PSF grid.  Increase TGR or NRD (or both) if possible.
+Warning: There are energy levels as great as  63.4% at the edge of the
+               PSF grid.  Increase TGR or NRD (or both) if possible.
+Warning: There are energy levels as great as   7.7% at the edge of the
+               PSF grid.  Increase TGR or NRD (or both) if possible.
+Warning: There are energy levels as great as   2.7% at the edge of the
+               PSF grid.  Increase TGR or NRD (or both) if possible.
+Warning: There are energy levels as great as   4.4% at the edge of the
+               PSF grid.  Increase TGR or NRD (or both) if possible.
+Warning: There are energy levels as great as  75.7% at the edge of the
+               PSF grid.  Increase TGR or NRD (or both) if possible.
+Warning: There are energy levels as great as  25.6% at the edge of the
+               PSF grid.  Increase TGR or NRD (or both) if possible.
+Warning: There are energy levels as great as   7.8% at the edge of the
+               PSF grid.  Increase TGR or NRD (or both) if possible.
+Warning: There are energy levels as great as   2.5% at the edge of the
+               PSF grid.  Increase TGR or NRD (or both) if possible.
+Warning: There are energy levels as great as   4.9% at the edge of the
+               PSF grid.  Increase TGR or NRD (or both) if possible.
+Warning: There are energy levels as great as   8.7% at the edge of the
+               PSF grid.  Increase TGR or NRD (or both) if possible.
+Warning: There are energy levels as great as   7.4% at the edge of the
+               PSF grid.  Increase TGR or NRD (or both) if possible.
+Warning: There are energy levels as great as  80.9% at the edge of the
+               PSF grid.  Increase TGR or NRD (or both) if possible.
+Warning: There are energy levels as great as  67.3% at the edge of the
+               PSF grid.  Increase TGR or NRD (or both) if possible.
+Warning: There are energy levels as great as  62.8% at the edge of the
+               PSF grid.  Increase TGR or NRD (or both) if possible.
+Warning: There are energy levels as great as  45.1% at the edge of the
+               PSF grid.  Increase TGR or NRD (or both) if possible.
+Warning: There are energy levels as great as  28.2% at the edge of the
+               PSF grid.  Increase TGR or NRD (or both) if possible.
+Warning: There are energy levels as great as  14.2% at the edge of the
+               PSF grid.  Increase TGR or NRD (or both) if possible.
+Warning: There are energy levels as great as  12.9% at the edge of the
+               PSF grid.  Increase TGR or NRD (or both) if possible.
+Warning: There are energy levels as great as  17.1% at the edge of the
+               PSF grid.  Increase TGR or NRD (or both) if possible.
+Warning: There are energy levels as great as  11.8% at the edge of the
+               PSF grid.  Increase TGR or NRD (or both) if possible.
+Warning: There are energy levels as great as  10.7% at the edge of the
+               PSF grid.  Increase TGR or NRD (or both) if possible.
+Warning: There are energy levels as great as   8.8% at the edge of the
+               PSF grid.  Increase TGR or NRD (or both) if possible.
+             100% complete...
+       Image Simulation Stage:
+             10% complete...
+             25% complete...
+             50% complete...
+             75% complete...
+             100% complete...
+       IMSIM output saved as: C:\users\crendon\documents\github\codev_python_com\calibration_star\d_0p80_slm_1p23_ims.bmp
+
+
+  Completed for power 1.23 in 1548.70 seconds.
+  Estimated remaining time for this distance: 25.81 minutes.
+---------------------------
+
+  Setting tilt: SCO S13 X -0.017393
+  Applying vignetting: run "C:\CODEV202203_SR1\macro\setvig.seq" 1e-07 0.1 100 NO YES ;GO
+  Running IMS, saving to C:\users\crendon\documents\github\codev_python_com\calibration_star\d_0p80_slm_1p28.bmp...
+
+
+
+
+
+
+
+
+
+
+#####################################################################################################################################
+
+
+
+
+       Image Attributes:
+       Image Semi-diagonal:   4.102583 mm
+       Image pixel size:      0.002149 x 0.002149 mm   
+
+
+       PSF Computation Stage:
+Warning: There are energy levels as great as  36.3% at the edge of the
+               PSF grid.  Increase TGR or NRD (or both) if possible.
+Warning: There are energy levels as great as  17.6% at the edge of the
+               PSF grid.  Increase TGR or NRD (or both) if possible.
+Warning: There are energy levels as great as   4.2% at the edge of the
+               PSF grid.  Increase TGR or NRD (or both) if possible.
+Warning: There are energy levels as great as   2.9% at the edge of the
+               PSF grid.  Increase TGR or NRD (or both) if possible.
+Warning: There are energy levels as great as   1.9% at the edge of the
+               PSF grid.  Increase TGR or NRD (or both) if possible.
+Warning: There are energy levels as great as   1.7% at the edge of the
+               PSF grid.  Increase TGR or NRD (or both) if possible.
+Warning: There are energy levels as great as   1.5% at the edge of the
+               PSF grid.  Increase TGR or NRD (or both) if possible.
+Warning: There are energy levels as great as   1.4% at the edge of the
+               PSF grid.  Increase TGR or NRD (or both) if possible.
+Warning: There are energy levels as great as   1.3% at the edge of the
+               PSF grid.  Increase TGR or NRD (or both) if possible.
+Warning: There are energy levels as great as   1.2% at the edge of the
+               PSF grid.  Increase TGR or NRD (or both) if possible.
+Warning: There are energy levels as great as   1.8% at the edge of the
+               PSF grid.  Increase TGR or NRD (or both) if possible.
+Warning: There are energy levels as great as   3.3% at the edge of the
+               PSF grid.  Increase TGR or NRD (or both) if possible.
+Warning: Vignetting cannot be set for one or more of the synthesized fields.
+               These fields are taken to have vignetting factors of 0.
+Warning: There are energy levels as great as  30.0% at the edge of the
+               PSF grid.  Increase TGR or NRD (or both) if possible.
+Warning: There are energy levels as great as   9.4% at the edge of the
+               PSF grid.  Increase TGR or NRD (or both) if possible.
+Warning: There are energy levels as great as   3.0% at the edge of the
+               PSF grid.  Increase TGR or NRD (or both) if possible.
+             10% complete...
+Warning: There are energy levels as great as   2.3% at the edge of the
+               PSF grid.  Increase TGR or NRD (or both) if possible.
+Warning: There are energy levels as great as  26.1% at the edge of the
+               PSF grid.  Increase TGR or NRD (or both) if possible.
+Warning: There are energy levels as great as   4.7% at the edge of the
+               PSF grid.  Increase TGR or NRD (or both) if possible.
+Warning: There are energy levels as great as  20.3% at the edge of the
+               PSF grid.  Increase TGR or NRD (or both) if possible.
+             25% complete...
+Warning: There are energy levels as great as  15.9% at the edge of the
+               PSF grid.  Increase TGR or NRD (or both) if possible.
+Warning: There are energy levels as great as  15.3% at the edge of the
+               PSF grid.  Increase TGR or NRD (or both) if possible.
+Warning: There are energy levels as great as  14.5% at the edge of the
+               PSF grid.  Increase TGR or NRD (or both) if possible.
+Warning: There are energy levels as great as  14.1% at the edge of the
+               PSF grid.  Increase TGR or NRD (or both) if possible.
+             50% complete...
+Warning: There are energy levels as great as  15.0% at the edge of the
+               PSF grid.  Increase TGR or NRD (or both) if possible.
+Warning: There are energy levels as great as   1.6% at the edge of the
+               PSF grid.  Increase TGR or NRD (or both) if possible.
+Warning: There are energy levels as great as  22.3% at the edge of the
+               PSF grid.  Increase TGR or NRD (or both) if possible.
+Warning: There are energy levels as great as   1.1% at the edge of the
+               PSF grid.  Increase TGR or NRD (or both) if possible.
+Warning: There are energy levels as great as  29.9% at the edge of the
+               PSF grid.  Increase TGR or NRD (or both) if possible.
+Warning: There are energy levels as great as   2.0% at the edge of the
+               PSF grid.  Increase TGR or NRD (or both) if possible.
+Warning: There are energy levels as great as  46.9% at the edge of the
+               PSF grid.  Increase TGR or NRD (or both) if possible.
+             75% complete...
+Warning: There are energy levels as great as   2.8% at the edge of the
+               PSF grid.  Increase TGR or NRD (or both) if possible.
+Warning: There are energy levels as great as  63.4% at the edge of the
+               PSF grid.  Increase TGR or NRD (or both) if possible.
+Warning: There are energy levels as great as   7.7% at the edge of the
+               PSF grid.  Increase TGR or NRD (or both) if possible.
+Warning: There are energy levels as great as   2.7% at the edge of the
+               PSF grid.  Increase TGR or NRD (or both) if possible.
+Warning: There are energy levels as great as   4.4% at the edge of the
+               PSF grid.  Increase TGR or NRD (or both) if possible.
+Warning: There are energy levels as great as  75.7% at the edge of the
+               PSF grid.  Increase TGR or NRD (or both) if possible.
+Warning: There are energy levels as great as  25.6% at the edge of the
+               PSF grid.  Increase TGR or NRD (or both) if possible.
+Warning: There are energy levels as great as   7.8% at the edge of the
+               PSF grid.  Increase TGR or NRD (or both) if possible.
+Warning: There are energy levels as great as   2.5% at the edge of the
+               PSF grid.  Increase TGR or NRD (or both) if possible.
+Warning: There are energy levels as great as   4.9% at the edge of the
+               PSF grid.  Increase TGR or NRD (or both) if possible.
+Warning: There are energy levels as great as   8.7% at the edge of the
+               PSF grid.  Increase TGR or NRD (or both) if possible.
+Warning: There are energy levels as great as   7.4% at the edge of the
+               PSF grid.  Increase TGR or NRD (or both) if possible.
+Warning: There are energy levels as great as  80.9% at the edge of the
+               PSF grid.  Increase TGR or NRD (or both) if possible.
+Warning: There are energy levels as great as  67.3% at the edge of the
+               PSF grid.  Increase TGR or NRD (or both) if possible.
+Warning: There are energy levels as great as  62.8% at the edge of the
+               PSF grid.  Increase TGR or NRD (or both) if possible.
+Warning: There are energy levels as great as  45.1% at the edge of the
+               PSF grid.  Increase TGR or NRD (or both) if possible.
+Warning: There are energy levels as great as  28.2% at the edge of the
+               PSF grid.  Increase TGR or NRD (or both) if possible.
+Warning: There are energy levels as great as  14.2% at the edge of the
+               PSF grid.  Increase TGR or NRD (or both) if possible.
+Warning: There are energy levels as great as  12.9% at the edge of the
+               PSF grid.  Increase TGR or NRD (or both) if possible.
+Warning: There are energy levels as great as  17.1% at the edge of the
+               PSF grid.  Increase TGR or NRD (or both) if possible.
+Warning: There are energy levels as great as  11.8% at the edge of the
+               PSF grid.  Increase TGR or NRD (or both) if possible.
+Warning: There are energy levels as great as  10.7% at the edge of the
+               PSF grid.  Increase TGR or NRD (or both) if possible.
+Warning: There are energy levels as great as   8.8% at the edge of the
+               PSF grid.  Increase TGR or NRD (or both) if possible.
+             100% complete...
+       Image Simulation Stage:
+             10% complete...
+             25% complete...
+             50% complete...
+             75% complete...
+             100% complete...
+       IMSIM output saved as: C:\users\crendon\documents\github\codev_python_com\calibration_star\d_0p80_slm_1p23_ims.bmp
+
+
+  Completed for power 1.23 in 1548.70 seconds.
+  Estimated remaining time for this distance: 25.81 minutes.
+---------------------------
+
+  Setting tilt: SCO S13 X -0.017393
+  Applying vignetting: run "C:\CODEV202203_SR1\macro\setvig.seq" 1e-07 0.1 100 NO YES ;GO
+  Running IMS, saving to C:\users\crendon\documents\github\codev_python_com\calibration_star\d_0p80_slm_1p28.bmp...
+
+--- CODE V Console Output ---
+    IMS                                                                              30-Sep-25  15H 58M 55S
+                                                CODE V PC  Version: 2022.03 SR1      CPU clock: 24H 14M 30S
+    User-entered and default apertures are active
+
+
+
+Warning: This system is not isoplanatic at field(s)  2, 3, 4, 5, 6, 7, 8, 9.
+               Any PSF results are of questionable value for assessing
+               the image quality, except in those cases where the user is
+               interested only in the image of a point-like object.  The
+               image quality for the unacceptable fields varies significan-
+               tly over a lateral region of 12 Airy disk diameters.
+
+
+
+Warning: Forcing SYM NON for image simulation since detector convolution is specified.
+       IMS
+
+       1 zoom position is active
+
+       Object Attributes:
+       Input Object File:          C:\users\crendon\documents\github\codev_python_com\star_60_spokes.bmp
+       Object File Type:           8-bit bitmap
+       Object File Resolution:     2700 x 2700
+       Object Mapping:             Object Height, Rectilinear
+       Field Coordinates:          Real Image Height
+       Object Half-diagonal:       4.002224 mm
+       Object Center (X,Y):        0.000000 , 0.000000 mm
+       Object Rotation:            0.000000 degrees
+
+
+       Computation Controls:
+       Transform Grid Size (TGR):       1024
+       Pupil Grid (NRD):                512
+       Image Grid (GRI):                0.000730 mm
+       PSF Array Size:                  15 x 15
+       Rotational Symmetry:             No
+       Detector Size (X,Y):             0.003750 , 0.003750 mm
+
+
+       Color Controls:
+       Simulation Type:               Polychromatic Intensity Analysis
+       System Wavelengths and Weights used for polychromatic intensity calculation
+
+
+       Output Controls:
+       Display Object File?:              Yes
+       Display IMS File(s)?:              Yes
+       Display PSF Diagnostic?:           No
+
+
+       Output IMS Folder:          C:\users\crendon\documents\github\codev_python_com
+       Output IMS File(s):         C:\users\crendon\documents\github\codev_python_com\calibration_star\d_0p80_slm_1p28_ims.bmp
+       Exported IMS data saved as: None specified
+       Color Scale:                Gray Scale
+
+
+
+
+       Image Attributes:
+       Image Semi-diagonal:   4.106080 mm
+       Image pixel size:      0.002151 x 0.002151 mm
+
+
+       PSF Computation Stage:
+Warning: There are energy levels as great as  94.4% at the edge of the
+               PSF grid.  Increase TGR or NRD (or both) if possible.
+Warning: There are energy levels as great as  78.0% at the edge of the
+               PSF grid.  Increase TGR or NRD (or both) if possible.
+Warning: There are energy levels as great as  16.9% at the edge of the
+               PSF grid.  Increase TGR or NRD (or both) if possible.
+Warning: There are energy levels as great as   7.1% at the edge of the
+               PSF grid.  Increase TGR or NRD (or both) if possible.
+Warning: There are energy levels as great as   4.5% at the edge of the
+               PSF grid.  Increase TGR or NRD (or both) if possible.
+Warning: There are energy levels as great as   3.4% at the edge of the
+               PSF grid.  Increase TGR or NRD (or both) if possible.
+Warning: There are energy levels as great as   3.0% at the edge of the
+               PSF grid.  Increase TGR or NRD (or both) if possible.
+Warning: There are energy levels as great as   2.5% at the edge of the
+               PSF grid.  Increase TGR or NRD (or both) if possible.
+Warning: There are energy levels as great as   2.4% at the edge of the
+               PSF grid.  Increase TGR or NRD (or both) if possible.
+Warning: There are energy levels as great as   2.6% at the edge of the
+               PSF grid.  Increase TGR or NRD (or both) if possible.
+Warning: There are energy levels as great as   3.3% at the edge of the
+               PSF grid.  Increase TGR or NRD (or both) if possible.
+Warning: There are energy levels as great as   5.1% at the edge of the
+               PSF grid.  Increase TGR or NRD (or both) if possible.
+Warning: There are energy levels as great as  10.7% at the edge of the
+               PSF grid.  Increase TGR or NRD (or both) if possible.
+Warning: Vignetting cannot be set for one or more of the synthesized fields.
+               These fields are taken to have vignetting factors of 0.
+Warning: There are energy levels as great as   1.7% at the edge of the
+               PSF grid.  Increase TGR or NRD (or both) if possible.
+Warning: There are energy levels as great as  90.2% at the edge of the
+               PSF grid.  Increase TGR or NRD (or both) if possible.
+Warning: There are energy levels as great as  44.6% at the edge of the
+               PSF grid.  Increase TGR or NRD (or both) if possible.
+Warning: There are energy levels as great as   8.4% at the edge of the
+               PSF grid.  Increase TGR or NRD (or both) if possible.
+Warning: There are energy levels as great as   4.1% at the edge of the
+               PSF grid.  Increase TGR or NRD (or both) if possible.
+Warning: There are energy levels as great as   2.8% at the edge of the
+               PSF grid.  Increase TGR or NRD (or both) if possible.
+Warning: There are energy levels as great as   1.4% at the edge of the
+               PSF grid.  Increase TGR or NRD (or both) if possible.
+             10% complete...
+Warning: There are energy levels as great as   1.2% at the edge of the
+               PSF grid.  Increase TGR or NRD (or both) if possible.
+Warning: There are energy levels as great as   1.1% at the edge of the
+               PSF grid.  Increase TGR or NRD (or both) if possible.
+Warning: There are energy levels as great as   1.9% at the edge of the
+               PSF grid.  Increase TGR or NRD (or both) if possible.
+Warning: There are energy levels as great as   5.2% at the edge of the
+               PSF grid.  Increase TGR or NRD (or both) if possible.
+Warning: There are energy levels as great as   7.0% at the edge of the
+               PSF grid.  Increase TGR or NRD (or both) if possible.
+Warning: There are energy levels as great as  85.6% at the edge of the
+               PSF grid.  Increase TGR or NRD (or both) if possible.
+Warning: There are energy levels as great as  22.3% at the edge of the
+               PSF grid.  Increase TGR or NRD (or both) if possible.
+Warning: There are energy levels as great as   1.0% at the edge of the
+               PSF grid.  Increase TGR or NRD (or both) if possible.
+Warning: There are energy levels as great as   2.9% at the edge of the
+               PSF grid.  Increase TGR or NRD (or both) if possible.
+Warning: There are energy levels as great as  79.9% at the edge of the
+               PSF grid.  Increase TGR or NRD (or both) if possible.
+Warning: There are energy levels as great as  11.0% at the edge of the
+               PSF grid.  Increase TGR or NRD (or both) if possible.
+             25% complete...
+Warning: There are energy levels as great as   1.8% at the edge of the
+               PSF grid.  Increase TGR or NRD (or both) if possible.
+Warning: There are energy levels as great as  70.9% at the edge of the
+               PSF grid.  Increase TGR or NRD (or both) if possible.
+Warning: There are energy levels as great as   4.2% at the edge of the
+               PSF grid.  Increase TGR or NRD (or both) if possible.
+Warning: There are energy levels as great as   1.5% at the edge of the
+               PSF grid.  Increase TGR or NRD (or both) if possible.
+Warning: There are energy levels as great as  66.0% at the edge of the
+               PSF grid.  Increase TGR or NRD (or both) if possible.
+Warning: There are energy levels as great as   2.0% at the edge of the
+               PSF grid.  Increase TGR or NRD (or both) if possible.
+Warning: There are energy levels as great as  60.4% at the edge of the
+               PSF grid.  Increase TGR or NRD (or both) if possible.
+Warning: There are energy levels as great as  56.7% at the edge of the
+               PSF grid.  Increase TGR or NRD (or both) if possible.
+Warning: There are energy levels as great as   1.6% at the edge of the
+               PSF grid.  Increase TGR or NRD (or both) if possible.
+             50% complete...
+Warning: There are energy levels as great as  57.1% at the edge of the
+               PSF grid.  Increase TGR or NRD (or both) if possible.
+Warning: There are energy levels as great as   1.3% at the edge of the
+               PSF grid.  Increase TGR or NRD (or both) if possible.
+Warning: There are energy levels as great as   3.2% at the edge of the
+               PSF grid.  Increase TGR or NRD (or both) if possible.
+Warning: There are energy levels as great as  70.5% at the edge of the
+               PSF grid.  Increase TGR or NRD (or both) if possible.
+Warning: There are energy levels as great as   2.1% at the edge of the
+               PSF grid.  Increase TGR or NRD (or both) if possible.
+Warning: There are energy levels as great as  73.0% at the edge of the
+               PSF grid.  Increase TGR or NRD (or both) if possible.
+Warning: There are energy levels as great as   3.6% at the edge of the
+               PSF grid.  Increase TGR or NRD (or both) if possible.
+Warning: There are energy levels as great as   4.4% at the edge of the
+               PSF grid.  Increase TGR or NRD (or both) if possible.
+Warning: There are energy levels as great as  73.5% at the edge of the
+               PSF grid.  Increase TGR or NRD (or both) if possible.
+Warning: There are energy levels as great as   9.6% at the edge of the
+               PSF grid.  Increase TGR or NRD (or both) if possible.
+             75% complete...
+Warning: There are energy levels as great as   6.9% at the edge of the
+               PSF grid.  Increase TGR or NRD (or both) if possible.
+Warning: There are energy levels as great as  77.1% at the edge of the
+               PSF grid.  Increase TGR or NRD (or both) if possible.
+Warning: There are energy levels as great as  34.1% at the edge of the
+               PSF grid.  Increase TGR or NRD (or both) if possible.
+Warning: There are energy levels as great as  16.4% at the edge of the
+               PSF grid.  Increase TGR or NRD (or both) if possible.
+Warning: There are energy levels as great as  81.0% at the edge of the
+               PSF grid.  Increase TGR or NRD (or both) if possible.
+Warning: There are energy levels as great as  77.4% at the edge of the
+               PSF grid.  Increase TGR or NRD (or both) if possible.
+Warning: There are energy levels as great as  34.4% at the edge of the
+               PSF grid.  Increase TGR or NRD (or both) if possible.
+Warning: There are energy levels as great as   9.9% at the edge of the
+               PSF grid.  Increase TGR or NRD (or both) if possible.
+Warning: There are energy levels as great as   3.7% at the edge of the
+               PSF grid.  Increase TGR or NRD (or both) if possible.
+Warning: There are energy levels as great as  11.2% at the edge of the
+               PSF grid.  Increase TGR or NRD (or both) if possible.
+Warning: There are energy levels as great as  22.5% at the edge of the
+               PSF grid.  Increase TGR or NRD (or both) if possible.
+Warning: There are energy levels as great as  36.8% at the edge of the
+               PSF grid.  Increase TGR or NRD (or both) if possible.
+Warning: There are energy levels as great as  26.6% at the edge of the
+               PSF grid.  Increase TGR or NRD (or both) if possible.
+Warning: There are energy levels as great as  91.4% at the edge of the
+               PSF grid.  Increase TGR or NRD (or both) if possible.
+Warning: There are energy levels as great as  80.5% at the edge of the
+               PSF grid.  Increase TGR or NRD (or both) if possible.
+Warning: There are energy levels as great as  77.6% at the edge of the
+               PSF grid.  Increase TGR or NRD (or both) if possible.
+Warning: There are energy levels as great as  73.9% at the edge of the
+               PSF grid.  Increase TGR or NRD (or both) if possible.
+Warning: There are energy levels as great as  72.2% at the edge of the
+               PSF grid.  Increase TGR or NRD (or both) if possible.
+Warning: There are energy levels as great as  70.0% at the edge of the
+               PSF grid.  Increase TGR or NRD (or both) if possible.
+Warning: There are energy levels as great as  57.5% at the edge of the
+               PSF grid.  Increase TGR or NRD (or both) if possible.
+Warning: There are energy levels as great as  60.0% at the edge of the
+               PSF grid.  Increase TGR or NRD (or both) if possible.
+Warning: There are energy levels as great as  62.5% at the edge of the
+               PSF grid.  Increase TGR or NRD (or both) if possible.
+Warning: There are energy levels as great as  59.1% at the edge of the
+               PSF grid.  Increase TGR or NRD (or both) if possible.
+Warning: There are energy levels as great as  72.3% at the edge of the
+               PSF grid.  Increase TGR or NRD (or both) if possible.
+Warning: There are energy levels as great as  52.2% at the edge of the
+               PSF grid.  Increase TGR or NRD (or both) if possible.
+Warning: There are energy levels as great as  34.5% at the edge of the
+               PSF grid.  Increase TGR or NRD (or both) if possible.
+Warning: There are energy levels as great as  25.2% at the edge of the
+               PSF grid.  Increase TGR or NRD (or both) if possible.
+             100% complete...
+       Image Simulation Stage:
+             10% complete...
+             25% complete...
+             50% complete...
+             75% complete...
+             100% complete...
+       IMSIM output saved as: C:\users\crendon\documents\github\codev_python_com\calibration_star\d_0p80_slm_1p28_ims.bmp
+
+
+Command End:
+
+---------------------------
+
+  Completed for power 1.28 in 1566.68 seconds.
+  Estimated remaining time for this distance: 0.00 minutes.
+---------------------------
+
+
+--- Starting task for distance: 2 ---
+Setting object distance to 2000 mm...
+  Setting tilt: SCO S13 X 0.002853
+  Applying vignetting: run "C:\CODEV202203_SR1\macro\setvig.seq" 1e-07 0.1 100 NO YES ;GO
+  Running IMS, saving to C:\users\crendon\documents\github\codev_python_com\calibration_star\d_2p00_slm_-0p21.bmp...
+
+--- CODE V Console Output ---
+    IMS                                                                              30-Sep-25  16H 25M  1S
+                                                CODE V PC  Version: 2022.03 SR1      CPU clock: 24H 40M 36S
+    User-entered and default apertures are active
+
+
+
+Warning: This system is not isoplanatic at field(s)  2, 3, 4, 5, 6, 7, 8, 9.
+               Any PSF results are of questionable value for assessing
+               the image quality, except in those cases where the user is
+               interested only in the image of a point-like object.  The
+               image quality for the unacceptable fields varies significan-
+               tly over a lateral region of 12 Airy disk diameters.
+
+
+
+Warning: Forcing SYM NON for image simulation since detector convolution is specified.
+       IMS
+
+       1 zoom position is active
+
+       Object Attributes:
+       Input Object File:          C:\users\crendon\documents\github\codev_python_com\star_60_spokes.bmp
+       Object File Type:           8-bit bitmap
+       Object File Resolution:     2700 x 2700
+       Object Mapping:             Object Height, Rectilinear
+       Field Coordinates:          Real Image Height
+       Object Half-diagonal:       4.002224 mm
+       Object Center (X,Y):        0.000000 , 0.000000 mm
+       Object Rotation:            0.000000 degrees
+
+
+       Computation Controls:
+       Transform Grid Size (TGR):       1024
+       Pupil Grid (NRD):                512
+       Image Grid (GRI):                0.000746 mm
+       PSF Array Size:                  15 x 15
+       Rotational Symmetry:             No
+       Detector Size (X,Y):             0.003750 , 0.003750 mm
+
+
+       Color Controls:
+       Simulation Type:               Polychromatic Intensity Analysis
+       System Wavelengths and Weights used for polychromatic intensity calculation
+
+
+       Output Controls:
+       Display Object File?:              Yes
+       Display IMS File(s)?:              Yes
+       Display PSF Diagnostic?:           No
+
+
+       Output IMS Folder:          C:\users\crendon\documents\github\codev_python_com
+       Output IMS File(s):         C:\users\crendon\documents\github\codev_python_com\calibration_star\d_2p00_slm_-0p21_ims.bmp
+       Exported IMS data saved as: None specified
+       Color Scale:                Gray Scale
+
+
+
+
+       Image Attributes:
+       Image Semi-diagonal:   4.034313 mm
+       Image pixel size:      0.002113 x 0.002113 mm
+
+
+       PSF Computation Stage:
+             10% complete...
+             25% complete...
+             50% complete...
+             75% complete...
+             100% complete...
+       Image Simulation Stage:
+             10% complete...
+             25% complete...
+             50% complete...
+             75% complete...
+             100% complete...
+       IMSIM output saved as: C:\users\crendon\documents\github\codev_python_com\calibration_star\d_2p00_slm_-0p21_ims.bmp
+
+
+Command End:
+
+---------------------------
+
+  Completed for power -0.21 in 920.75 seconds.
+  Estimated remaining time for this distance: 306.92 minutes.
+---------------------------
+
+  Setting tilt: SCO S13 X 0.002174
+  Applying vignetting: run "C:\CODEV202203_SR1\macro\setvig.seq" 1e-07 0.1 100 NO YES ;GO
+  Running IMS, saving to C:\users\crendon\documents\github\codev_python_com\calibration_star\d_2p00_slm_-0p16.bmp...
+
+--- CODE V Console Output ---
+    IMS                                                                              30-Sep-25  16H 40M 22S
+                                                CODE V PC  Version: 2022.03 SR1      CPU clock: 24H 55M 57S
+    User-entered and default apertures are active
+
+
+
+Warning: This system is not isoplanatic at field(s)  2, 3, 4, 5, 6, 7, 8, 9.
+               Any PSF results are of questionable value for assessing
+               the image quality, except in those cases where the user is
+               interested only in the image of a point-like object.  The
+               image quality for the unacceptable fields varies significan-
+               tly over a lateral region of 12 Airy disk diameters.
+
+
+
+Warning: Forcing SYM NON for image simulation since detector convolution is specified.
+       IMS
+
+       1 zoom position is active
+
+       Object Attributes:
+       Input Object File:          C:\users\crendon\documents\github\codev_python_com\star_60_spokes.bmp
+       Object File Type:           8-bit bitmap
+       Object File Resolution:     2700 x 2700
+       Object Mapping:             Object Height, Rectilinear
+       Field Coordinates:          Real Image Height
+       Object Half-diagonal:       4.002224 mm
+       Object Center (X,Y):        0.000000 , 0.000000 mm
+       Object Rotation:            0.000000 degrees
+
+
+       Computation Controls:
+       Transform Grid Size (TGR):       1024
+       Pupil Grid (NRD):                512
+       Image Grid (GRI):                0.000748 mm
+       PSF Array Size:                  15 x 15
+       Rotational Symmetry:             No
+       Detector Size (X,Y):             0.003750 , 0.003750 mm
+
+
+       Color Controls:
+       Simulation Type:               Polychromatic Intensity Analysis
+       System Wavelengths and Weights used for polychromatic intensity calculation
+
+
+       Output Controls:
+       Display Object File?:              Yes
+       Display IMS File(s)?:              Yes
+       Display PSF Diagnostic?:           No
+
+
+       Output IMS Folder:          C:\users\crendon\documents\github\codev_python_com
+       Output IMS File(s):         C:\users\crendon\documents\github\codev_python_com\calibration_star\d_2p00_slm_-0p16_ims.bmp
+       Exported IMS data saved as: None specified
+       Color Scale:                Gray Scale
+
+
+
+
+       Image Attributes:
+       Image Semi-diagonal:   4.032689 mm
+       Image pixel size:      0.002112 x 0.002112 mm
+
+
+       PSF Computation Stage:
+             10% complete...
+             25% complete...
+             50% complete...
+             75% complete...
+             100% complete...
+       Image Simulation Stage:
+             10% complete...
+             25% complete...
+             50% complete...
+             75% complete...
+             100% complete...
+       IMSIM output saved as: C:\users\crendon\documents\github\codev_python_com\calibration_star\d_2p00_slm_-0p16_ims.bmp
+
+
+Command End:
+
+---------------------------
+
+  Completed for power -0.16 in 856.31 seconds.
+  Estimated remaining time for this distance: 271.16 minutes.
+---------------------------
+
+  Setting tilt: SCO S13 X 0.001495
+  Applying vignetting: run "C:\CODEV202203_SR1\macro\setvig.seq" 1e-07 0.1 100 NO YES ;GO
+  Running IMS, saving to C:\users\crendon\documents\github\codev_python_com\calibration_star\d_2p00_slm_-0p11.bmp...
+
+--- CODE V Console Output ---
+    IMS                                                                              30-Sep-25  16H 54M 38S
+                                                CODE V PC  Version: 2022.03 SR1      CPU clock: 25H 10M 13S
+    User-entered and default apertures are active
+
+
+
+Warning: This system is not isoplanatic at field(s)  2, 3, 4, 5, 6, 7, 8, 9.
+               Any PSF results are of questionable value for assessing
+               the image quality, except in those cases where the user is
+               interested only in the image of a point-like object.  The
+               image quality for the unacceptable fields varies significan-
+               tly over a lateral region of 12 Airy disk diameters.
+
+
+
+Warning: Forcing SYM NON for image simulation since detector convolution is specified.
+       IMS
+
+       1 zoom position is active
+
+       Object Attributes:
+       Input Object File:          C:\users\crendon\documents\github\codev_python_com\star_60_spokes.bmp
+       Object File Type:           8-bit bitmap
+       Object File Resolution:     2700 x 2700
+       Object Mapping:             Object Height, Rectilinear
+       Field Coordinates:          Real Image Height
+       Object Half-diagonal:       4.002224 mm
+       Object Center (X,Y):        0.000000 , 0.000000 mm
+       Object Rotation:            0.000000 degrees
+
+
+       Computation Controls:
+       Transform Grid Size (TGR):       1024
+       Pupil Grid (NRD):                512
+       Image Grid (GRI):                0.000749 mm
+       PSF Array Size:                  15 x 15
+       Rotational Symmetry:             No
+       Detector Size (X,Y):             0.003750 , 0.003750 mm
+
+
+       Color Controls:
+       Simulation Type:               Polychromatic Intensity Analysis
+       System Wavelengths and Weights used for polychromatic intensity calculation
+
+
+       Output Controls:
+       Display Object File?:              Yes
+       Display IMS File(s)?:              Yes
+       Display PSF Diagnostic?:           No
+
+
+       Output IMS Folder:          C:\users\crendon\documents\github\codev_python_com
+       Output IMS File(s):         C:\users\crendon\documents\github\codev_python_com\calibration_star\d_2p00_slm_-0p11_ims.bmp
+       Exported IMS data saved as: None specified
+       Color Scale:                Gray Scale
+
+
+
+
+       Image Attributes:
+       Image Semi-diagonal:   4.031173 mm
+       Image pixel size:      0.002111 x 0.002111 mm
+
+
+       PSF Computation Stage:
+             10% complete...
+             25% complete...
+             50% complete...
+             75% complete...
+             100% complete...
+       Image Simulation Stage:
+             10% complete...
+             25% complete...
+             50% complete...
+             75% complete...
+             100% complete...
+       IMSIM output saved as: C:\users\crendon\documents\github\codev_python_com\calibration_star\d_2p00_slm_-0p11_ims.bmp
+
+
+Command End:
+
+---------------------------
+
+  Completed for power -0.11 in 826.08 seconds.
+  Estimated remaining time for this distance: 247.83 minutes.
+---------------------------
+
+  Setting tilt: SCO S13 X 0.000815
+  Applying vignetting: run "C:\CODEV202203_SR1\macro\setvig.seq" 1e-07 0.1 100 NO YES ;GO
+  Running IMS, saving to C:\users\crendon\documents\github\codev_python_com\calibration_star\d_2p00_slm_-0p06.bmp...
+
+--- CODE V Console Output ---
+    IMS                                                                              30-Sep-25  17H  8M 24S
+                                                CODE V PC  Version: 2022.03 SR1      CPU clock: 25H 23M 59S
+    User-entered and default apertures are active
+
+
+
+Warning: This system is not isoplanatic at field(s)  2, 3, 4, 5, 6, 7, 8, 9.
+               Any PSF results are of questionable value for assessing
+               the image quality, except in those cases where the user is
+               interested only in the image of a point-like object.  The
+               image quality for the unacceptable fields varies significan-
+               tly over a lateral region of 12 Airy disk diameters.
+
+
+
+Warning: Forcing SYM NON for image simulation since detector convolution is specified.
+       IMS
+
+       1 zoom position is active
+
+       Object Attributes:
+       Input Object File:          C:\users\crendon\documents\github\codev_python_com\star_60_spokes.bmp
+       Object File Type:           8-bit bitmap
+       Object File Resolution:     2700 x 2700
+       Object Mapping:             Object Height, Rectilinear
+       Field Coordinates:          Real Image Height
+       Object Half-diagonal:       4.002224 mm
+       Object Center (X,Y):        0.000000 , 0.000000 mm
+       Object Rotation:            0.000000 degrees
+
+
+       Computation Controls:
+       Transform Grid Size (TGR):       1024
+       Pupil Grid (NRD):                512
+       Image Grid (GRI):                0.000750 mm
+       PSF Array Size:                  15 x 15
+       Rotational Symmetry:             No
+       Detector Size (X,Y):             0.003750 , 0.003750 mm
+
+
+       Color Controls:
+       Simulation Type:               Polychromatic Intensity Analysis
+       System Wavelengths and Weights used for polychromatic intensity calculation
+
+
+       Output Controls:
+       Display Object File?:              Yes
+       Display IMS File(s)?:              Yes
+       Display PSF Diagnostic?:           No
+
+
+       Output IMS Folder:          C:\users\crendon\documents\github\codev_python_com
+       Output IMS File(s):         C:\users\crendon\documents\github\codev_python_com\calibration_star\d_2p00_slm_-0p06_ims.bmp
+       Exported IMS data saved as: None specified
+       Color Scale:                Gray Scale
+
+
+
+
+       Image Attributes:
+       Image Semi-diagonal:   4.029693 mm
+       Image pixel size:      0.002111 x 0.002111 mm
+
+
+       PSF Computation Stage:
+             10% complete...
+             25% complete...
+             50% complete...
+             75% complete...
+             100% complete...
+       Image Simulation Stage:
+             10% complete...
+             25% complete...
+             50% complete...
+             75% complete...
+             100% complete...
+       IMSIM output saved as: C:\users\crendon\documents\github\codev_python_com\calibration_star\d_2p00_slm_-0p06_ims.bmp
+
+
+Command End:
+
+---------------------------
+
+  Completed for power -0.06 in 808.41 seconds.
+  Estimated remaining time for this distance: 229.05 minutes.
+---------------------------
+
+  Setting tilt: SCO S13 X 0.000136
+  Applying vignetting: run "C:\CODEV202203_SR1\macro\setvig.seq" 1e-07 0.1 100 NO YES ;GO
+  Running IMS, saving to C:\users\crendon\documents\github\codev_python_com\calibration_star\d_2p00_slm_-0p01.bmp...
+
+--- CODE V Console Output ---
+    IMS                                                                              30-Sep-25  17H 21M 53S
+                                                CODE V PC  Version: 2022.03 SR1      CPU clock: 25H 37M 28S
+    User-entered and default apertures are active
+
+
+
+Warning: This system is not isoplanatic at field(s)  2, 3, 4, 5, 6, 7, 8, 9.
+               Any PSF results are of questionable value for assessing
+               the image quality, except in those cases where the user is
+               interested only in the image of a point-like object.  The
+               image quality for the unacceptable fields varies significan-
+               tly over a lateral region of 12 Airy disk diameters.
+
+
+
+Warning: Forcing SYM NON for image simulation since detector convolution is specified.
+       IMS
+
+       1 zoom position is active
+
+       Object Attributes:
+       Input Object File:          C:\users\crendon\documents\github\codev_python_com\star_60_spokes.bmp
+       Object File Type:           8-bit bitmap
+       Object File Resolution:     2700 x 2700
+       Object Mapping:             Object Height, Rectilinear
+       Field Coordinates:          Real Image Height
+       Object Half-diagonal:       4.002224 mm
+       Object Center (X,Y):        0.000000 , 0.000000 mm
+       Object Rotation:            0.000000 degrees
+
+
+       Computation Controls:
+       Transform Grid Size (TGR):       1024
+       Pupil Grid (NRD):                512
+       Image Grid (GRI):                0.000751 mm
+       PSF Array Size:                  15 x 15
+       Rotational Symmetry:             No
+       Detector Size (X,Y):             0.003750 , 0.003750 mm
+
+
+       Color Controls:
+       Simulation Type:               Polychromatic Intensity Analysis
+       System Wavelengths and Weights used for polychromatic intensity calculation
+
+
+       Output Controls:
+       Display Object File?:              Yes
+       Display IMS File(s)?:              Yes
+       Display PSF Diagnostic?:           No
+
+
+       Output IMS Folder:          C:\users\crendon\documents\github\codev_python_com
+       Output IMS File(s):         C:\users\crendon\documents\github\codev_python_com\calibration_star\d_2p00_slm_-0p01_ims.bmp
+       Exported IMS data saved as: None specified
+       Color Scale:                Gray Scale
+
+
+
+
+       Image Attributes:
+       Image Semi-diagonal:   4.028360 mm
+       Image pixel size:      0.002110 x 0.002110 mm
+
+
+       PSF Computation Stage:
+             10% complete...
+             25% complete...
+             50% complete...
+             75% complete...
+             100% complete...
+       Image Simulation Stage:
+             10% complete...
+             25% complete...
+             50% complete...
+             75% complete...
+             100% complete...
+       IMSIM output saved as: C:\users\crendon\documents\github\codev_python_com\calibration_star\d_2p00_slm_-0p01_ims.bmp
+
+
+Command End:
+
+---------------------------
+
+  Completed for power -0.01 in 768.77 seconds.
+  Estimated remaining time for this distance: 205.00 minutes.
+---------------------------
+
+  Setting tilt: SCO S13 X -0.000544
+  Applying vignetting: run "C:\CODEV202203_SR1\macro\setvig.seq" 1e-07 0.1 100 NO YES ;GO
+  Running IMS, saving to C:\users\crendon\documents\github\codev_python_com\calibration_star\d_2p00_slm_0p04.bmp...
+
+--- CODE V Console Output ---
+    IMS                                                                              30-Sep-25  17H 34M 42S
+                                                CODE V PC  Version: 2022.03 SR1      CPU clock: 25H 50M 17S
+    User-entered and default apertures are active
+
+
+
+Warning: This system is not isoplanatic at field(s)  2, 3, 4, 5, 6, 7, 8, 9.
+               Any PSF results are of questionable value for assessing
+               the image quality, except in those cases where the user is
+               interested only in the image of a point-like object.  The
+               image quality for the unacceptable fields varies significan-
+               tly over a lateral region of 12 Airy disk diameters.
+
+
+
+Warning: Forcing SYM NON for image simulation since detector convolution is specified.
+       IMS
+
+       1 zoom position is active
+
+       Object Attributes:
+       Input Object File:          C:\users\crendon\documents\github\codev_python_com\star_60_spokes.bmp
+       Object File Type:           8-bit bitmap
+       Object File Resolution:     2700 x 2700
+       Object Mapping:             Object Height, Rectilinear
+       Field Coordinates:          Real Image Height
+       Object Half-diagonal:       4.002224 mm
+       Object Center (X,Y):        0.000000 , 0.000000 mm
+       Object Rotation:            0.000000 degrees
+
+
+       Computation Controls:
+       Transform Grid Size (TGR):       1024
+       Pupil Grid (NRD):                512
+       Image Grid (GRI):                0.000753 mm
+       PSF Array Size:                  15 x 15
+       Rotational Symmetry:             No
+       Detector Size (X,Y):             0.003750 , 0.003750 mm
+
+
+       Color Controls:
+       Simulation Type:               Polychromatic Intensity Analysis
+       System Wavelengths and Weights used for polychromatic intensity calculation
+
+
+       Output Controls:
+       Display Object File?:              Yes
+       Display IMS File(s)?:              Yes
+       Display PSF Diagnostic?:           No
+
+
+       Output IMS Folder:          C:\users\crendon\documents\github\codev_python_com
+       Output IMS File(s):         C:\users\crendon\documents\github\codev_python_com\calibration_star\d_2p00_slm_0p04_ims.bmp
+       Exported IMS data saved as: None specified
+       Color Scale:                Gray Scale
+
+
+
+
+       Image Attributes:
+       Image Semi-diagonal:   4.029665 mm
+       Image pixel size:      0.002111 x 0.002111 mm
+
+
+       PSF Computation Stage:
+             10% complete...
+             25% complete...
+             50% complete...
+             75% complete...
+             100% complete...
+       Image Simulation Stage:
+             10% complete...
+             25% complete...
+             50% complete...
+             75% complete...
+             100% complete...
+       IMSIM output saved as: C:\users\crendon\documents\github\codev_python_com\calibration_star\d_2p00_slm_0p04_ims.bmp
+
+
+Command End:
+
+---------------------------
+
+  Completed for power 0.04 in 787.82 seconds.
+  Estimated remaining time for this distance: 196.96 minutes.
+---------------------------
+
+  Setting tilt: SCO S13 X -0.001223
+  Applying vignetting: run "C:\CODEV202203_SR1\macro\setvig.seq" 1e-07 0.1 100 NO YES ;GO
+  Running IMS, saving to C:\users\crendon\documents\github\codev_python_com\calibration_star\d_2p00_slm_0p09.bmp...
+
+--- CODE V Console Output ---
+    IMS                                                                              30-Sep-25  17H 47M 49S
+                                                CODE V PC  Version: 2022.03 SR1      CPU clock: 26H  3M 24S
+    User-entered and default apertures are active
+
+
+
+Warning: This system is not isoplanatic at field(s)  2, 3, 4, 5, 6, 7, 8, 9.
+               Any PSF results are of questionable value for assessing
+               the image quality, except in those cases where the user is
+               interested only in the image of a point-like object.  The
+               image quality for the unacceptable fields varies significan-
+               tly over a lateral region of 12 Airy disk diameters.
+
+
+
+Warning: Forcing SYM NON for image simulation since detector convolution is specified.
+       IMS
+
+       1 zoom position is active
+
+       Object Attributes:
+       Input Object File:          C:\users\crendon\documents\github\codev_python_com\star_60_spokes.bmp
+       Object File Type:           8-bit bitmap
+       Object File Resolution:     2700 x 2700
+       Object Mapping:             Object Height, Rectilinear
+       Field Coordinates:          Real Image Height
+       Object Half-diagonal:       4.002224 mm
+       Object Center (X,Y):        0.000000 , 0.000000 mm
+       Object Rotation:            0.000000 degrees
+
+
+       Computation Controls:
+       Transform Grid Size (TGR):       1024
+       Pupil Grid (NRD):                512
+       Image Grid (GRI):                0.000754 mm
+       PSF Array Size:                  15 x 15
+       Rotational Symmetry:             No
+       Detector Size (X,Y):             0.003750 , 0.003750 mm
+
+
+       Color Controls:
+       Simulation Type:               Polychromatic Intensity Analysis
+       System Wavelengths and Weights used for polychromatic intensity calculation
+
+
+       Output Controls:
+       Display Object File?:              Yes
+       Display IMS File(s)?:              Yes
+       Display PSF Diagnostic?:           No
+
+
+       Output IMS Folder:          C:\users\crendon\documents\github\codev_python_com
+       Output IMS File(s):         C:\users\crendon\documents\github\codev_python_com\calibration_star\d_2p00_slm_0p09_ims.bmp
+       Exported IMS data saved as: None specified
+       Color Scale:                Gray Scale
+
+
+
+
+       Image Attributes:
+       Image Semi-diagonal:   4.031693 mm
+       Image pixel size:      0.002112 x 0.002112 mm
+
+
+       PSF Computation Stage:
+             10% complete...
+             25% complete...
+             50% complete...
+             75% complete...
+             100% complete...
+       Image Simulation Stage:
+             10% complete...
+             25% complete...
+             50% complete...
+             75% complete...
+             100% complete...
+       IMSIM output saved as: C:\users\crendon\documents\github\codev_python_com\calibration_star\d_2p00_slm_0p09_ims.bmp
+
+
+Command End:
+
+---------------------------
+
+  Completed for power 0.09 in 806.42 seconds.
+  Estimated remaining time for this distance: 188.16 minutes.
+---------------------------
+
+  Setting tilt: SCO S13 X -0.001902
+  Applying vignetting: run "C:\CODEV202203_SR1\macro\setvig.seq" 1e-07 0.1 100 NO YES ;GO
+  Running IMS, saving to C:\users\crendon\documents\github\codev_python_com\calibration_star\d_2p00_slm_0p14.bmp...
+
+
+
+  **************************************************************************************************************************************
+  **************************************************************************************************************************************
+  **************************************************************************************************************************************
+
+
+               50% complete...
+             75% complete...
+             100% complete...
+       Image Simulation Stage:
+             10% complete...
+             25% complete...
+             50% complete...
+             75% complete...
+             100% complete...
+       IMSIM output saved as: C:\users\crendon\documents\github\codev_python_com\calibration_star\d_3p75_slm_0p20_ims.bmp
+
+
+Command End:
+
+---------------------------
+
+  Completed for power 0.20 in 1015.43 seconds.
+  Estimated remaining time for this distance: 152.31 minutes.
+---------------------------
+
+  Setting tilt: SCO S13 X -0.003397
+  Applying vignetting: run "C:\CODEV202203_SR1\macro\setvig.seq" 1e-07 0.1 100 NO YES ;GO
+  Running IMS, saving to C:\users\crendon\documents\github\codev_python_com\calibration_star\d_3p75_slm_0p25.bmp...
+
+--- CODE V Console Output ---
+    IMS                                                                               1-Oct-25   1H 32M 10S
+                                                CODE V PC  Version: 2022.03 SR1      CPU clock: 33H 47M 45S
+    User-entered and default apertures are active
+
+
+
+Warning: This system is not isoplanatic at field(s)  2, 3, 4, 5, 6, 7, 8, 9.
+               Any PSF results are of questionable value for assessing
+               the image quality, except in those cases where the user is
+               interested only in the image of a point-like object.  The
+               image quality for the unacceptable fields varies significan-
+               tly over a lateral region of 12 Airy disk diameters.
+
+
+
+Warning: Forcing SYM NON for image simulation since detector convolution is specified.
+       IMS
+
+       1 zoom position is active
+
+       Object Attributes:
+       Input Object File:          C:\users\crendon\documents\github\codev_python_com\star_60_spokes.bmp
+       Object File Type:           8-bit bitmap
+       Object File Resolution:     2700 x 2700
+       Object Mapping:             Object Height, Rectilinear
+       Field Coordinates:          Real Image Height
+       Object Half-diagonal:       4.002224 mm
+       Object Center (X,Y):        0.000000 , 0.000000 mm
+       Object Rotation:            0.000000 degrees
+
+
+       Computation Controls:
+       Transform Grid Size (TGR):       1024
+       Pupil Grid (NRD):                512
+       Image Grid (GRI):                0.000766 mm
+       PSF Array Size:                  15 x 15
+       Rotational Symmetry:             No
+       Detector Size (X,Y):             0.003750 , 0.003750 mm
+
+
+       Color Controls:
+       Simulation Type:               Polychromatic Intensity Analysis
+       System Wavelengths and Weights used for polychromatic intensity calculation
+
+
+       Output Controls:
+       Display Object File?:              Yes
+       Display IMS File(s)?:              Yes
+       Display PSF Diagnostic?:           No
+
+
+       Output IMS Folder:          C:\users\crendon\documents\github\codev_python_com
+       Output IMS File(s):         C:\users\crendon\documents\github\codev_python_com\calibration_star\d_3p75_slm_0p25_ims.bmp
+       Exported IMS data saved as: None specified
+       Color Scale:                Gray Scale
+
+
+
+
+       Image Attributes:
+       Image Semi-diagonal:   4.037240 mm
+       Image pixel size:      0.002115 x 0.002115 mm
+
+
+       PSF Computation Stage:
+             10% complete...
+             25% complete...
+             50% complete...
+             75% complete...
+             100% complete...
+       Image Simulation Stage:
+             10% complete...
+             25% complete...
+             50% complete...
+             75% complete...
+             100% complete...
+       IMSIM output saved as: C:\users\crendon\documents\github\codev_python_com\calibration_star\d_3p75_slm_0p25_ims.bmp
+
+
+Command End:
+
+---------------------------
+
+  Completed for power 0.25 in 1078.16 seconds.
+  Estimated remaining time for this distance: 143.76 minutes.
+---------------------------
+
+  Setting tilt: SCO S13 X -0.004076
+  Applying vignetting: run "C:\CODEV202203_SR1\macro\setvig.seq" 1e-07 0.1 100 NO YES ;GO
+  Running IMS, saving to C:\users\crendon\documents\github\codev_python_com\calibration_star\d_3p75_slm_0p30.bmp...
+
+--- CODE V Console Output ---
+    IMS                                                                               1-Oct-25   1H 50M  8S
+                                                CODE V PC  Version: 2022.03 SR1      CPU clock: 34H  5M 43S
+    User-entered and default apertures are active
+
+
+
+Warning: This system is not isoplanatic at field(s)  2, 3, 4, 5, 6, 7, 8, 9.
+               Any PSF results are of questionable value for assessing
+               the image quality, except in those cases where the user is
+               interested only in the image of a point-like object.  The
+               image quality for the unacceptable fields varies significan-
+               tly over a lateral region of 12 Airy disk diameters.
+
+
+
+Warning: Forcing SYM NON for image simulation since detector convolution is specified.
+       IMS
+
+       1 zoom position is active
+
+       Object Attributes:
+       Input Object File:          C:\users\crendon\documents\github\codev_python_com\star_60_spokes.bmp
+       Object File Type:           8-bit bitmap
+       Object File Resolution:     2700 x 2700
+       Object Mapping:             Object Height, Rectilinear
+       Field Coordinates:          Real Image Height
+       Object Half-diagonal:       4.002224 mm
+       Object Center (X,Y):        0.000000 , 0.000000 mm
+       Object Rotation:            0.000000 degrees
+
+
+       Computation Controls:
+       Transform Grid Size (TGR):       1024
+       Pupil Grid (NRD):                512
+       Image Grid (GRI):                0.000767 mm
+       PSF Array Size:                  15 x 15
+       Rotational Symmetry:             No
+       Detector Size (X,Y):             0.003750 , 0.003750 mm
+
+
+       Color Controls:
+       Simulation Type:               Polychromatic Intensity Analysis
+       System Wavelengths and Weights used for polychromatic intensity calculation
+
+
+       Output Controls:
+       Display Object File?:              Yes
+       Display IMS File(s)?:              Yes
+       Display PSF Diagnostic?:           No
+
+
+       Output IMS Folder:          C:\users\crendon\documents\github\codev_python_com
+       Output IMS File(s):         C:\users\crendon\documents\github\codev_python_com\calibration_star\d_3p75_slm_0p30_ims.bmp
+       Exported IMS data saved as: None specified
+       Color Scale:                Gray Scale
+
+
+
+
+       Image Attributes:
+       Image Semi-diagonal:   4.039588 mm
+       Image pixel size:      0.002116 x 0.002116 mm
+
+
+       PSF Computation Stage:
+             10% complete...
+             25% complete...
+             50% complete...
+             75% complete...
+             100% complete...
+       Image Simulation Stage:
+             10% complete...
+             25% complete...
+             50% complete...
+             75% complete...
+             100% complete...
+       IMSIM output saved as: C:\users\crendon\documents\github\codev_python_com\calibration_star\d_3p75_slm_0p30_ims.bmp
+
+
+Command End:
+
+---------------------------
+
+  Completed for power 0.30 in 1136.03 seconds.
+  Estimated remaining time for this distance: 132.54 minutes.
+---------------------------
+
+  Setting tilt: SCO S13 X -0.004756
+  Applying vignetting: run "C:\CODEV202203_SR1\macro\setvig.seq" 1e-07 0.1 100 NO YES ;GO
+  Running IMS, saving to C:\users\crendon\documents\github\codev_python_com\calibration_star\d_3p75_slm_0p35.bmp...
+
+--- CODE V Console Output ---
+    IMS                                                                               1-Oct-25   2H  9M  4S
+                                                CODE V PC  Version: 2022.03 SR1      CPU clock: 34H 24M 39S
+    User-entered and default apertures are active
+
+
+
+Warning: This system is not isoplanatic at field(s)  2, 3, 4, 5, 6, 7, 8, 9.
+               Any PSF results are of questionable value for assessing
+               the image quality, except in those cases where the user is
+               interested only in the image of a point-like object.  The
+               image quality for the unacceptable fields varies significan-
+               tly over a lateral region of 12 Airy disk diameters.
+
+
+
+Warning: Forcing SYM NON for image simulation since detector convolution is specified.
+       IMS
+
+       1 zoom position is active
+
+       Object Attributes:
+       Input Object File:          C:\users\crendon\documents\github\codev_python_com\star_60_spokes.bmp
+       Object File Type:           8-bit bitmap
+       Object File Resolution:     2700 x 2700
+       Object Mapping:             Object Height, Rectilinear
+       Field Coordinates:          Real Image Height
+       Object Half-diagonal:       4.002224 mm
+       Object Center (X,Y):        0.000000 , 0.000000 mm
+       Object Rotation:            0.000000 degrees
+
+
+       Computation Controls:
+       Transform Grid Size (TGR):       1024
+       Pupil Grid (NRD):                512
+       Image Grid (GRI):                0.000768 mm
+       PSF Array Size:                  15 x 15
+       Rotational Symmetry:             No
+       Detector Size (X,Y):             0.003750 , 0.003750 mm
+
+
+       Color Controls:
+       Simulation Type:               Polychromatic Intensity Analysis
+       System Wavelengths and Weights used for polychromatic intensity calculation
+
+
+       Output Controls:
+       Display Object File?:              Yes
+       Display IMS File(s)?:              Yes
+       Display PSF Diagnostic?:           No
+
+
+       Output IMS Folder:          C:\users\crendon\documents\github\codev_python_com
+       Output IMS File(s):         C:\users\crendon\documents\github\codev_python_com\calibration_star\d_3p75_slm_0p35_ims.bmp
+       Exported IMS data saved as: None specified
+       Color Scale:                Gray Scale
+
+
+
+
+       Image Attributes:
+       Image Semi-diagonal:   4.042032 mm
+       Image pixel size:      0.002117 x 0.002117 mm
+
+
+       PSF Computation Stage:
+             10% complete...
+             25% complete...
+             50% complete...
+             75% complete...
+             100% complete...
+       Image Simulation Stage:
+             10% complete...
+             25% complete...
+             50% complete...
+             75% complete...
+             100% complete...
+       IMSIM output saved as: C:\users\crendon\documents\github\codev_python_com\calibration_star\d_3p75_slm_0p35_ims.bmp
+
+
+Command End:
+
+---------------------------
+
+  Completed for power 0.35 in 1192.13 seconds.
+  Estimated remaining time for this distance: 119.21 minutes.
+---------------------------
+
+  Setting tilt: SCO S13 X -0.005435
+  Applying vignetting: run "C:\CODEV202203_SR1\macro\setvig.seq" 1e-07 0.1 100 NO YES ;GO
+  Running IMS, saving to C:\users\crendon\documents\github\codev_python_com\calibration_star\d_3p75_slm_0p40.bmp...
+
+--- CODE V Console Output ---
+    IMS                                                                               1-Oct-25   2H 28M 56S
+                                                CODE V PC  Version: 2022.03 SR1      CPU clock: 34H 44M 31S
+    User-entered and default apertures are active
+
+
+
+Warning: This system is not isoplanatic at field(s)  2, 3, 4, 5, 6, 7, 8, 9.
+               Any PSF results are of questionable value for assessing
+               the image quality, except in those cases where the user is
+               interested only in the image of a point-like object.  The
+               image quality for the unacceptable fields varies significan-
+               tly over a lateral region of 12 Airy disk diameters.
+
+
+
+Warning: Forcing SYM NON for image simulation since detector convolution is specified.
+       IMS
+
+       1 zoom position is active
+
+       Object Attributes:
+       Input Object File:          C:\users\crendon\documents\github\codev_python_com\star_60_spokes.bmp
+       Object File Type:           8-bit bitmap
+       Object File Resolution:     2700 x 2700
+       Object Mapping:             Object Height, Rectilinear
+       Field Coordinates:          Real Image Height
+       Object Half-diagonal:       4.002224 mm
+       Object Center (X,Y):        0.000000 , 0.000000 mm
+       Object Rotation:            0.000000 degrees
+
+
+       Computation Controls:
+       Transform Grid Size (TGR):       1024
+       Pupil Grid (NRD):                512
+       Image Grid (GRI):                0.000768 mm
+       PSF Array Size:                  15 x 15
+       Rotational Symmetry:             No
+       Detector Size (X,Y):             0.003750 , 0.003750 mm
+
+
+       Color Controls:
+       Simulation Type:               Polychromatic Intensity Analysis
+       System Wavelengths and Weights used for polychromatic intensity calculation
+
+
+       Output Controls:
+       Display Object File?:              Yes
+       Display IMS File(s)?:              Yes
+       Display PSF Diagnostic?:           No
+
+
+       Output IMS Folder:          C:\users\crendon\documents\github\codev_python_com
+       Output IMS File(s):         C:\users\crendon\documents\github\codev_python_com\calibration_star\d_3p75_slm_0p40_ims.bmp
+       Exported IMS data saved as: None specified
+       Color Scale:                Gray Scale
+
+
+
+
+       Image Attributes:
+       Image Semi-diagonal:   4.044579 mm
+       Image pixel size:      0.002118 x 0.002118 mm
+
+
+       PSF Computation Stage:
+             10% complete...
+             25% complete...
+             50% complete...
+             75% complete...
+             100% complete...
+       Image Simulation Stage:
+             10% complete...
+             25% complete...
+             50% complete...
+             75% complete...
+             100% complete...
+       IMSIM output saved as: C:\users\crendon\documents\github\codev_python_com\calibration_star\d_3p75_slm_0p40_ims.bmp
+
+
+Command End:
+
+---------------------------
+
+  Completed for power 0.40 in 1257.17 seconds.
+  Estimated remaining time for this distance: 104.76 minutes.
+---------------------------
+
+  Setting tilt: SCO S13 X -0.006115
+  Applying vignetting: run "C:\CODEV202203_SR1\macro\setvig.seq" 1e-07 0.1 100 NO YES ;GO
+  Running IMS, saving to C:\users\crendon\documents\github\codev_python_com\calibration_star\d_3p75_slm_0p45.bmp...
+
+--- CODE V Console Output ---
+    IMS                                                                               1-Oct-25   2H 49M 53S
+                                                CODE V PC  Version: 2022.03 SR1      CPU clock: 35H  5M 28S
+    User-entered and default apertures are active
+
+
+
+Warning: This system is not isoplanatic at field(s)  2, 3, 4, 5, 6, 7, 8, 9.
+               Any PSF results are of questionable value for assessing
+               the image quality, except in those cases where the user is
+               interested only in the image of a point-like object.  The
+               image quality for the unacceptable fields varies significan-
+               tly over a lateral region of 12 Airy disk diameters.
+
+
+
+Warning: Forcing SYM NON for image simulation since detector convolution is specified.
+       IMS
+
+       1 zoom position is active
+
+       Object Attributes:
+       Input Object File:          C:\users\crendon\documents\github\codev_python_com\star_60_spokes.bmp
+       Object File Type:           8-bit bitmap
+       Object File Resolution:     2700 x 2700
+       Object Mapping:             Object Height, Rectilinear
+       Field Coordinates:          Real Image Height
+       Object Half-diagonal:       4.002224 mm
+       Object Center (X,Y):        0.000000 , 0.000000 mm
+       Object Rotation:            0.000000 degrees
+
+
+       Computation Controls:
+       Transform Grid Size (TGR):       1024
+       Pupil Grid (NRD):                512
+       Image Grid (GRI):                0.000768 mm
+       PSF Array Size:                  15 x 15
+       Rotational Symmetry:             No
+       Detector Size (X,Y):             0.003750 , 0.003750 mm
+
+
+       Color Controls:
+       Simulation Type:               Polychromatic Intensity Analysis
+       System Wavelengths and Weights used for polychromatic intensity calculation
+
+
+       Output Controls:
+       Display Object File?:              Yes
+       Display IMS File(s)?:              Yes
+       Display PSF Diagnostic?:           No
+
+
+       Output IMS Folder:          C:\users\crendon\documents\github\codev_python_com
+       Output IMS File(s):         C:\users\crendon\documents\github\codev_python_com\calibration_star\d_3p75_slm_0p45_ims.bmp
+       Exported IMS data saved as: None specified
+       Color Scale:                Gray Scale
+
+
+
+
+       Image Attributes:
+       Image Semi-diagonal:   4.047219 mm
+       Image pixel size:      0.002120 x 0.002120 mm
+
+
+       PSF Computation Stage:
+             10% complete...
+             25% complete...
+             50% complete...
+             75% complete...
+             100% complete...
+       Image Simulation Stage:
+             10% complete...
+             25% complete...
+             50% complete...
+             75% complete...
+             100% complete...
+       IMSIM output saved as: C:\users\crendon\documents\github\codev_python_com\calibration_star\d_3p75_slm_0p45_ims.bmp
+
+
+Command End:
+
+---------------------------
+
+  Completed for power 0.45 in 1311.82 seconds.
+  Estimated remaining time for this distance: 87.45 minutes.
+---------------------------
+
+  Setting tilt: SCO S13 X -0.006794
+  Applying vignetting: run "C:\CODEV202203_SR1\macro\setvig.seq" 1e-07 0.1 100 NO YES ;GO
+  Running IMS, saving to C:\users\crendon\documents\github\codev_python_com\calibration_star\d_3p75_slm_0p50.bmp...
+
+--- CODE V Console Output ---
+    IMS                                                                               1-Oct-25   3H 11M 45S
+                                                CODE V PC  Version: 2022.03 SR1      CPU clock: 35H 27M 20S
+    User-entered and default apertures are active
+
+
+
+Warning: This system is not isoplanatic at field(s)  2, 3, 4, 5, 7, 8, 9.
+               Any PSF results are of questionable value for assessing
+               the image quality, except in those cases where the user is
+               interested only in the image of a point-like object.  The
+               image quality for the unacceptable fields varies significan-
+               tly over a lateral region of 12 Airy disk diameters.
+
+
+
+Warning: Forcing SYM NON for image simulation since detector convolution is specified.
+       IMS
+
+       1 zoom position is active
+
+       Object Attributes:
+       Input Object File:          C:\users\crendon\documents\github\codev_python_com\star_60_spokes.bmp
+       Object File Type:           8-bit bitmap
+       Object File Resolution:     2700 x 2700
+       Object Mapping:             Object Height, Rectilinear
+       Field Coordinates:          Real Image Height
+       Object Half-diagonal:       4.002224 mm
+       Object Center (X,Y):        0.000000 , 0.000000 mm
+       Object Rotation:            0.000000 degrees
+
+
+       Computation Controls:
+       Transform Grid Size (TGR):       1024
+       Pupil Grid (NRD):                512
+       Image Grid (GRI):                0.000768 mm
+       PSF Array Size:                  15 x 15
+       Rotational Symmetry:             No
+       Detector Size (X,Y):             0.003750 , 0.003750 mm
+
+
+       Color Controls:
+       Simulation Type:               Polychromatic Intensity Analysis
+       System Wavelengths and Weights used for polychromatic intensity calculation
+
+
+       Output Controls:
+       Display Object File?:              Yes
+       Display IMS File(s)?:              Yes
+       Display PSF Diagnostic?:           No
+
+
+       Output IMS Folder:          C:\users\crendon\documents\github\codev_python_com
+       Output IMS File(s):         C:\users\crendon\documents\github\codev_python_com\calibration_star\d_3p75_slm_0p50_ims.bmp
+       Exported IMS data saved as: None specified
+       Color Scale:                Gray Scale
+
+
+
+
+       Image Attributes:
+       Image Semi-diagonal:   4.049940 mm
+       Image pixel size:      0.002121 x 0.002121 mm
+
+
+       PSF Computation Stage:
+Warning: There are energy levels as great as   1.2% at the edge of the
+               PSF grid.  Increase TGR or NRD (or both) if possible.
+Warning: There are energy levels as great as   1.3% at the edge of the
+               PSF grid.  Increase TGR or NRD (or both) if possible.
+Warning: There are energy levels as great as   1.0% at the edge of the
+               PSF grid.  Increase TGR or NRD (or both) if possible.
+             10% complete...
+             25% complete...
+             50% complete...
+             75% complete...
+             100% complete...
+       Image Simulation Stage:
+             10% complete...
+             25% complete...
+             50% complete...
+             75% complete...
+             100% complete...
+       IMSIM output saved as: C:\users\crendon\documents\github\codev_python_com\calibration_star\d_3p75_slm_0p50_ims.bmp
+
+
+Command End:
+
+---------------------------
+
+  Completed for power 0.50 in 1368.41 seconds.
+  Estimated remaining time for this distance: 68.42 minutes.
+---------------------------
+
+  Setting tilt: SCO S13 X -0.007473
+  Applying vignetting: run "C:\CODEV202203_SR1\macro\setvig.seq" 1e-07 0.1 100 NO YES ;GO
+  Running IMS, saving to C:\users\crendon\documents\github\codev_python_com\calibration_star\d_3p75_slm_0p55.bmp...
+
+--- CODE V Console Output ---
+    IMS                                                                               1-Oct-25   3H 34M 33S
+                                                CODE V PC  Version: 2022.03 SR1      CPU clock: 35H 50M  8S
+    User-entered and default apertures are active
+
+
+
+Warning: This system is not isoplanatic at field(s)  2, 3, 4, 5, 7, 8, 9.
+               Any PSF results are of questionable value for assessing
+               the image quality, except in those cases where the user is
+               interested only in the image of a point-like object.  The
+               image quality for the unacceptable fields varies significan-
+               tly over a lateral region of 12 Airy disk diameters.
+
+
+
+Warning: Forcing SYM NON for image simulation since detector convolution is specified.
+       IMS
+
+       1 zoom position is active
+
+       Object Attributes:
+       Input Object File:          C:\users\crendon\documents\github\codev_python_com\star_60_spokes.bmp
+       Object File Type:           8-bit bitmap
+       Object File Resolution:     2700 x 2700
+       Object Mapping:             Object Height, Rectilinear
+       Field Coordinates:          Real Image Height
+       Object Half-diagonal:       4.002224 mm
+       Object Center (X,Y):        0.000000 , 0.000000 mm
+       Object Rotation:            0.000000 degrees
+
+
+       Computation Controls:
+       Transform Grid Size (TGR):       1024
+       Pupil Grid (NRD):                512
+       Image Grid (GRI):                0.000768 mm
+       PSF Array Size:                  15 x 15
+       Rotational Symmetry:             No
+       Detector Size (X,Y):             0.003750 , 0.003750 mm
+
+
+       Color Controls:
+       Simulation Type:               Polychromatic Intensity Analysis
+       System Wavelengths and Weights used for polychromatic intensity calculation
+
+
+       Output Controls:
+       Display Object File?:              Yes
+       Display IMS File(s)?:              Yes
+       Display PSF Diagnostic?:           No
+
+
+       Output IMS Folder:          C:\users\crendon\documents\github\codev_python_com
+       Output IMS File(s):         C:\users\crendon\documents\github\codev_python_com\calibration_star\d_3p75_slm_0p55_ims.bmp
+       Exported IMS data saved as: None specified
+       Color Scale:                Gray Scale
+
+
+
+
+       Image Attributes:
+       Image Semi-diagonal:   4.052757 mm
+       Image pixel size:      0.002123 x 0.002123 mm
+
+
+       PSF Computation Stage:
+Warning: There are energy levels as great as   2.4% at the edge of the
+               PSF grid.  Increase TGR or NRD (or both) if possible.
+Warning: There are energy levels as great as   1.7% at the edge of the
+               PSF grid.  Increase TGR or NRD (or both) if possible.
+Warning: There are energy levels as great as   1.4% at the edge of the
+               PSF grid.  Increase TGR or NRD (or both) if possible.
+Warning: There are energy levels as great as   1.2% at the edge of the
+               PSF grid.  Increase TGR or NRD (or both) if possible.
+Warning: There are energy levels as great as   1.1% at the edge of the
+               PSF grid.  Increase TGR or NRD (or both) if possible.
+Warning: There are energy levels as great as   1.8% at the edge of the
+               PSF grid.  Increase TGR or NRD (or both) if possible.
+Warning: There are energy levels as great as   1.3% at the edge of the
+               PSF grid.  Increase TGR or NRD (or both) if possible.
+             10% complete...
+Warning: There are energy levels as great as   1.5% at the edge of the
+               PSF grid.  Increase TGR or NRD (or both) if possible.
+Warning: There are energy levels as great as   1.0% at the edge of the
+               PSF grid.  Increase TGR or NRD (or both) if possible.
+             25% complete...
+             50% complete...
+             75% complete...
+Warning: There are energy levels as great as   1.6% at the edge of the
+               PSF grid.  Increase TGR or NRD (or both) if possible.
+Warning: There are energy levels as great as   1.9% at the edge of the
+               PSF grid.  Increase TGR or NRD (or both) if possible.
+Warning: There are energy levels as great as   3.3% at the edge of the
+               PSF grid.  Increase TGR or NRD (or both) if possible.
+Warning: There are energy levels as great as   2.0% at the edge of the
+               PSF grid.  Increase TGR or NRD (or both) if possible.
+Warning: There are energy levels as great as   2.1% at the edge of the
+               PSF grid.  Increase TGR or NRD (or both) if possible.
+             100% complete...
+       Image Simulation Stage:
+             10% complete...
+             25% complete...
+             50% complete...
+             75% complete...
+             100% complete...
+       IMSIM output saved as: C:\users\crendon\documents\github\codev_python_com\calibration_star\d_3p75_slm_0p55_ims.bmp
+
+
+Command End:
+
+---------------------------
+
+  Completed for power 0.55 in 1463.13 seconds.
+  Estimated remaining time for this distance: 48.77 minutes.
+---------------------------
+
+  Setting tilt: SCO S13 X -0.008153
+  Applying vignetting: run "C:\CODEV202203_SR1\macro\setvig.seq" 1e-07 0.1 100 NO YES ;GO
+  Running IMS, saving to C:\users\crendon\documents\github\codev_python_com\calibration_star\d_3p75_slm_0p60.bmp...
+
+--- CODE V Console Output ---
+    IMS                                                                               1-Oct-25   3H 58M 56S
+                                                CODE V PC  Version: 2022.03 SR1      CPU clock: 36H 14M 31S
+    User-entered and default apertures are active
+
+
+
+Warning: This system is not isoplanatic at field(s)  2, 3, 4, 5, 7, 8, 9.
+               Any PSF results are of questionable value for assessing
+               the image quality, except in those cases where the user is
+               interested only in the image of a point-like object.  The
+               image quality for the unacceptable fields varies significan-
+               tly over a lateral region of 12 Airy disk diameters.
+
+
+
+Warning: Forcing SYM NON for image simulation since detector convolution is specified.
+       IMS
+
+       1 zoom position is active
+
+       Object Attributes:
+       Input Object File:          C:\users\crendon\documents\github\codev_python_com\star_60_spokes.bmp
+       Object File Type:           8-bit bitmap
+       Object File Resolution:     2700 x 2700
+       Object Mapping:             Object Height, Rectilinear
+       Field Coordinates:          Real Image Height
+       Object Half-diagonal:       4.002224 mm
+       Object Center (X,Y):        0.000000 , 0.000000 mm
+       Object Rotation:            0.000000 degrees
+
+
+       Computation Controls:
+       Transform Grid Size (TGR):       1024
+       Pupil Grid (NRD):                512
+       Image Grid (GRI):                0.000768 mm
+       PSF Array Size:                  15 x 15
+       Rotational Symmetry:             No
+       Detector Size (X,Y):             0.003750 , 0.003750 mm
+
+
+       Color Controls:
+       Simulation Type:               Polychromatic Intensity Analysis
+       System Wavelengths and Weights used for polychromatic intensity calculation
+
+
+       Output Controls:
+       Display Object File?:              Yes
+       Display IMS File(s)?:              Yes
+       Display PSF Diagnostic?:           No
+
+
+       Output IMS Folder:          C:\users\crendon\documents\github\codev_python_com
+       Output IMS File(s):         C:\users\crendon\documents\github\codev_python_com\calibration_star\d_3p75_slm_0p60_ims.bmp
+       Exported IMS data saved as: None specified
+       Color Scale:                Gray Scale
+
+
+
+
+       Image Attributes:
+       Image Semi-diagonal:   4.055720 mm
+       Image pixel size:      0.002124 x 0.002124 mm
+
+
+       PSF Computation Stage:
+Warning: There are energy levels as great as   5.3% at the edge of the
+               PSF grid.  Increase TGR or NRD (or both) if possible.
+Warning: There are energy levels as great as   2.8% at the edge of the
+               PSF grid.  Increase TGR or NRD (or both) if possible.
+Warning: There are energy levels as great as   2.2% at the edge of the
+               PSF grid.  Increase TGR or NRD (or both) if possible.
+Warning: There are energy levels as great as   1.8% at the edge of the
+               PSF grid.  Increase TGR or NRD (or both) if possible.
+Warning: There are energy levels as great as   1.4% at the edge of the
+               PSF grid.  Increase TGR or NRD (or both) if possible.
+Warning: There are energy levels as great as   1.3% at the edge of the
+               PSF grid.  Increase TGR or NRD (or both) if possible.
+Warning: There are energy levels as great as   1.1% at the edge of the
+               PSF grid.  Increase TGR or NRD (or both) if possible.
+Warning: There are energy levels as great as   1.5% at the edge of the
+               PSF grid.  Increase TGR or NRD (or both) if possible.
+Warning: There are energy levels as great as   2.0% at the edge of the
+               PSF grid.  Increase TGR or NRD (or both) if possible.
+Warning: There are energy levels as great as   3.8% at the edge of the
+               PSF grid.  Increase TGR or NRD (or both) if possible.
+Warning: There are energy levels as great as   1.7% at the edge of the
+               PSF grid.  Increase TGR or NRD (or both) if possible.
+             10% complete...
+Warning: There are energy levels as great as   1.2% at the edge of the
+               PSF grid.  Increase TGR or NRD (or both) if possible.
+Warning: There are energy levels as great as   1.6% at the edge of the
+               PSF grid.  Increase TGR or NRD (or both) if possible.
+Warning: There are energy levels as great as   2.9% at the edge of the
+               PSF grid.  Increase TGR or NRD (or both) if possible.
+Warning: There are energy levels as great as   2.3% at the edge of the
+               PSF grid.  Increase TGR or NRD (or both) if possible.
+             25% complete...
+Warning: There are energy levels as great as   2.1% at the edge of the
+               PSF grid.  Increase TGR or NRD (or both) if possible.
+Warning: There are energy levels as great as   1.0% at the edge of the
+               PSF grid.  Increase TGR or NRD (or both) if possible.
+             50% complete...
+Warning: There are energy levels as great as   1.9% at the edge of the
+               PSF grid.  Increase TGR or NRD (or both) if possible.
+Warning: There are energy levels as great as   2.4% at the edge of the
+               PSF grid.  Increase TGR or NRD (or both) if possible.
+             75% complete...
+Warning: There are energy levels as great as   3.4% at the edge of the
+               PSF grid.  Increase TGR or NRD (or both) if possible.
+Warning: There are energy levels as great as   6.6% at the edge of the
+               PSF grid.  Increase TGR or NRD (or both) if possible.
+Warning: There are energy levels as great as   2.6% at the edge of the
+               PSF grid.  Increase TGR or NRD (or both) if possible.
+Warning: There are energy levels as great as  14.1% at the edge of the
+               PSF grid.  Increase TGR or NRD (or both) if possible.
+Warning: There are energy levels as great as   6.3% at the edge of the
+               PSF grid.  Increase TGR or NRD (or both) if possible.
+Warning: There are energy levels as great as   3.5% at the edge of the
+               PSF grid.  Increase TGR or NRD (or both) if possible.
+Warning: There are energy levels as great as   2.7% at the edge of the
+               PSF grid.  Increase TGR or NRD (or both) if possible.
+Warning: There are energy levels as great as   3.7% at the edge of the
+               PSF grid.  Increase TGR or NRD (or both) if possible.
+Warning: There are energy levels as great as   3.2% at the edge of the
+               PSF grid.  Increase TGR or NRD (or both) if possible.
+             100% complete...
+       Image Simulation Stage:
+             10% complete...
+             25% complete...
+             50% complete...
+             75% complete...
+             100% complete...
+       IMSIM output saved as: C:\users\crendon\documents\github\codev_python_com\calibration_star\d_3p75_slm_0p60_ims.bmp
+
+
+Command End:
+
+---------------------------
+
+  Completed for power 0.60 in 1549.72 seconds.
+  Estimated remaining time for this distance: 25.83 minutes.
+---------------------------
+
+  Setting tilt: SCO S13 X -0.008832
+  Applying vignetting: run "C:\CODEV202203_SR1\macro\setvig.seq" 1e-07 0.1 100 NO YES ;GO
+  Running IMS, saving to C:\users\crendon\documents\github\codev_python_com\calibration_star\d_3p75_slm_0p65.bmp...
+
+--- CODE V Console Output ---
+    IMS                                                                               1-Oct-25   4H 24M 46S
+                                                CODE V PC  Version: 2022.03 SR1      CPU clock: 36H 40M 21S
+    User-entered and default apertures are active
+
+
+
+Warning: This system is not isoplanatic at field(s)  2, 3, 4, 5, 7, 8, 9.
+               Any PSF results are of questionable value for assessing
+               the image quality, except in those cases where the user is
+               interested only in the image of a point-like object.  The
+               image quality for the unacceptable fields varies significan-
+               tly over a lateral region of 12 Airy disk diameters.
+
+
+
+Warning: Forcing SYM NON for image simulation since detector convolution is specified.
+       IMS
+
+       1 zoom position is active
+
+       Object Attributes:
+       Input Object File:          C:\users\crendon\documents\github\codev_python_com\star_60_spokes.bmp
+       Object File Type:           8-bit bitmap
+       Object File Resolution:     2700 x 2700
+       Object Mapping:             Object Height, Rectilinear
+       Field Coordinates:          Real Image Height
+       Object Half-diagonal:       4.002224 mm
+       Object Center (X,Y):        0.000000 , 0.000000 mm
+       Object Rotation:            0.000000 degrees
+
+
+       Computation Controls:
+       Transform Grid Size (TGR):       1024
+       Pupil Grid (NRD):                512
+       Image Grid (GRI):                0.000768 mm
+       PSF Array Size:                  15 x 15
+       Rotational Symmetry:             No
+       Detector Size (X,Y):             0.003750 , 0.003750 mm
+
+
+       Color Controls:
+       Simulation Type:               Polychromatic Intensity Analysis
+       System Wavelengths and Weights used for polychromatic intensity calculation
+
+
+       Output Controls:
+       Display Object File?:              Yes
+       Display IMS File(s)?:              Yes
+       Display PSF Diagnostic?:           No
+
+
+       Output IMS Folder:          C:\users\crendon\documents\github\codev_python_com
+       Output IMS File(s):         C:\users\crendon\documents\github\codev_python_com\calibration_star\d_3p75_slm_0p65_ims.bmp
+       Exported IMS data saved as: None specified
+       Color Scale:                Gray Scale
+
+
+
+
+       Image Attributes:
+       Image Semi-diagonal:   4.058783 mm
+       Image pixel size:      0.002126 x 0.002126 mm
+
+
+       PSF Computation Stage:
+Warning: There are energy levels as great as  18.8% at the edge of the
+               PSF grid.  Increase TGR or NRD (or both) if possible.
+Warning: There are energy levels as great as   6.8% at the edge of the
+               PSF grid.  Increase TGR or NRD (or both) if possible.
+Warning: There are energy levels as great as   3.4% at the edge of the
+               PSF grid.  Increase TGR or NRD (or both) if possible.
+Warning: There are energy levels as great as   3.0% at the edge of the
+               PSF grid.  Increase TGR or NRD (or both) if possible.
+Warning: There are energy levels as great as   2.4% at the edge of the
+               PSF grid.  Increase TGR or NRD (or both) if possible.
+Warning: There are energy levels as great as   1.8% at the edge of the
+               PSF grid.  Increase TGR or NRD (or both) if possible.
+Warning: There are energy levels as great as   1.9% at the edge of the
+               PSF grid.  Increase TGR or NRD (or both) if possible.
+Warning: There are energy levels as great as   1.7% at the edge of the
+               PSF grid.  Increase TGR or NRD (or both) if possible.
+Warning: There are energy levels as great as   1.6% at the edge of the
+               PSF grid.  Increase TGR or NRD (or both) if possible.
+Warning: There are energy levels as great as   1.5% at the edge of the
+               PSF grid.  Increase TGR or NRD (or both) if possible.
+Warning: There are energy levels as great as   2.0% at the edge of the
+               PSF grid.  Increase TGR or NRD (or both) if possible.
+Warning: There are energy levels as great as   3.2% at the edge of the
+               PSF grid.  Increase TGR or NRD (or both) if possible.
+Warning: There are energy levels as great as   4.6% at the edge of the
+               PSF grid.  Increase TGR or NRD (or both) if possible.
+Warning: There are energy levels as great as   1.3% at the edge of the
+               PSF grid.  Increase TGR or NRD (or both) if possible.
+Warning: There are energy levels as great as  12.9% at the edge of the
+               PSF grid.  Increase TGR or NRD (or both) if possible.
+Warning: There are energy levels as great as   5.2% at the edge of the
+               PSF grid.  Increase TGR or NRD (or both) if possible.
+Warning: There are energy levels as great as   3.3% at the edge of the
+               PSF grid.  Increase TGR or NRD (or both) if possible.
+Warning: There are energy levels as great as   2.2% at the edge of the
+               PSF grid.  Increase TGR or NRD (or both) if possible.
+             10% complete...
+Warning: There are energy levels as great as   1.1% at the edge of the
+               PSF grid.  Increase TGR or NRD (or both) if possible.
+Warning: There are energy levels as great as   1.0% at the edge of the
+               PSF grid.  Increase TGR or NRD (or both) if possible.
+Warning: There are energy levels as great as   1.4% at the edge of the
+               PSF grid.  Increase TGR or NRD (or both) if possible.
+Warning: There are energy levels as great as   2.9% at the edge of the
+               PSF grid.  Increase TGR or NRD (or both) if possible.
+Warning: There are energy levels as great as   3.1% at the edge of the
+               PSF grid.  Increase TGR or NRD (or both) if possible.
+Warning: There are energy levels as great as   9.0% at the edge of the
+               PSF grid.  Increase TGR or NRD (or both) if possible.
+Warning: There are energy levels as great as   2.1% at the edge of the
+               PSF grid.  Increase TGR or NRD (or both) if possible.
+Warning: There are energy levels as great as   1.2% at the edge of the
+               PSF grid.  Increase TGR or NRD (or both) if possible.
+Warning: There are energy levels as great as   2.3% at the edge of the
+               PSF grid.  Increase TGR or NRD (or both) if possible.
+             25% complete...
+Warning: There are energy levels as great as   4.4% at the edge of the
+               PSF grid.  Increase TGR or NRD (or both) if possible.
+Warning: There are energy levels as great as   3.5% at the edge of the
+               PSF grid.  Increase TGR or NRD (or both) if possible.
+Warning: There are energy levels as great as   2.5% at the edge of the
+               PSF grid.  Increase TGR or NRD (or both) if possible.
+             50% complete...
+Warning: There are energy levels as great as   2.8% at the edge of the
+               PSF grid.  Increase TGR or NRD (or both) if possible.
+Warning: There are energy levels as great as   5.7% at the edge of the
+               PSF grid.  Increase TGR or NRD (or both) if possible.
+Warning: There are energy levels as great as   9.2% at the edge of the
+               PSF grid.  Increase TGR or NRD (or both) if possible.
+             75% complete...
+Warning: There are energy levels as great as  15.5% at the edge of the
+               PSF grid.  Increase TGR or NRD (or both) if possible.
+Warning: There are energy levels as great as  30.8% at the edge of the
+               PSF grid.  Increase TGR or NRD (or both) if possible.
+Warning: There are energy levels as great as   5.4% at the edge of the
+               PSF grid.  Increase TGR or NRD (or both) if possible.
+Warning: There are energy levels as great as  55.3% at the edge of the
+               PSF grid.  Increase TGR or NRD (or both) if possible.
+Warning: There are energy levels as great as  26.9% at the edge of the
+               PSF grid.  Increase TGR or NRD (or both) if possible.
+Warning: There are energy levels as great as  15.6% at the edge of the
+               PSF grid.  Increase TGR or NRD (or both) if possible.
+Warning: There are energy levels as great as   9.5% at the edge of the
+               PSF grid.  Increase TGR or NRD (or both) if possible.
+Warning: There are energy levels as great as   5.6% at the edge of the
+               PSF grid.  Increase TGR or NRD (or both) if possible.
+Warning: There are energy levels as great as   2.7% at the edge of the
+               PSF grid.  Increase TGR or NRD (or both) if possible.
+Warning: There are energy levels as great as   3.7% at the edge of the
+               PSF grid.  Increase TGR or NRD (or both) if possible.
+Warning: There are energy levels as great as   4.2% at the edge of the
+               PSF grid.  Increase TGR or NRD (or both) if possible.
+Warning: There are energy levels as great as   6.0% at the edge of the
+               PSF grid.  Increase TGR or NRD (or both) if possible.
+Warning: There are energy levels as great as   8.6% at the edge of the
+               PSF grid.  Increase TGR or NRD (or both) if possible.
+             100% complete...
+       Image Simulation Stage:
+             10% complete...
+             25% complete...
+             50% complete...
+             75% complete...
+             100% complete...
+       IMSIM output saved as: C:\users\crendon\documents\github\codev_python_com\calibration_star\d_3p75_slm_0p65_ims.bmp
+
+
+Command End:
+
+---------------------------
+
+  Completed for power 0.65 in 1634.46 seconds.
+  Estimated remaining time for this distance: 0.00 minutes.
+---------------------------
