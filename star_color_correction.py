@@ -66,7 +66,7 @@ if __name__ == '__main__':
     ]
 
     # Configuration for the CODE V session
-    WORKING_DIR = "C:\\users\\crendon\\documents\\github\\codev_python_com\\"
+    WORKING_DIR = os.getcwd() + "\\"
     LENS_FILE = WORKING_DIR + "system_with_camera" 
     RESULTS_DIR = WORKING_DIR + "calibration_star\\"
     WHITE_IMAGE_FILE = WORKING_DIR + "white.bmp"

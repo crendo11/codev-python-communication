@@ -4,35 +4,12 @@ import numpy as np
 import time
 from params import Params
 import matplotlib.pyplot as plt
+import codev_helper as cvh
+import os
 
 # ==============================================================================
 # Helper Functions
 # ==============================================================================
-def add_to_surf_thickness(cv_session, surface, delta_thickness):
-    previous_thickness = query_surf_thickness(cv_session, surface)
-
-    if previous_thickness is not None:
-        command = f"THI {surface} {previous_thickness + delta_thickness}"
-        cv_session.Command(command)
-
-
-def query_surf_thickness(cv_session, surface):
-    command = f"?THI {surface}"
-    output = cv_session.Command(command)
-    if output:
-        value = float(output.split("=")[1].split("\r")[0])
-        return value
-    else:
-        return None
-    
-def query_xrplynomial_coeff(cv_session, surface, order):
-    command = f"?SCO {surface} {order}"
-    output = cv_session.Command(command)
-    if output:
-        value = float(output.split("=")[1].split("\r")[0])
-        return value
-    else:
-        return None
     
 def tilt2power(tilt):
     delta = -tilt*params.f0
@@ -45,7 +22,7 @@ params = Params()
 
 if __name__ == '__main__':
     # --- Configuration for CodeV session ---
-    WORKING_DIR = "C:\\users\\crendon\\documents\\github\\codev_python_com\\"
+    WORKING_DIR = os.getcwd() + "\\"
     LENS_FILE = WORKING_DIR + "system_with_camera" 
     RESULTS_DIR = WORKING_DIR + "sensitivity_analysis\\"
 
@@ -87,15 +64,18 @@ if __name__ == '__main__':
             os.makedirs(RESULTS_DIR)
             print(f"Created results directory: {RESULTS_DIR}")
 
+        # Initialize CodeVHelper
+        cvHelper = cvh.CodeVHelper(cv_session, debug=True)
+
 
         # set the object distance 
         print(f"Setting object distance to {distance*1000} mm...")
         cv_session.Command(f"THI S0 {distance*1000}") 
 
         # get initial thickness of the surfaces
-        s1_t = query_surf_thickness(cv_session, e1_surface)
-        s2_t = query_surf_thickness(cv_session, e2_surface)
-        s3_t = query_surf_thickness(cv_session, e3_surface)
+        s1_t = cvHelper.query_surf_thickness(e1_surface)
+        s2_t = cvHelper.query_surf_thickness(e2_surface)
+        s3_t = cvHelper.query_surf_thickness(e3_surface)
         print(f"Initial thicknesses - {e1_surface}: {s1_t} mm, {e2_surface}: {s2_t} mm, {e3_surface}: {s3_t} mm")
 
         # --- Main Processing Loop ---
@@ -124,7 +104,7 @@ if __name__ == '__main__':
                 cv_session.Command(optimization_command)
 
                 # get the value of the tilt
-                tilt = query_xrplynomial_coeff(cv_session, "S13", "C2")
+                tilt = cvHelper.query_xypolynomial_coeff("S13", "C2")
                 power = tilt2power(tilt)
                 Pv_grid[i, j] = power
 
