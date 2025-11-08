@@ -1,0 +1,9 @@
+res system_with_camera
+thi s0 ininity
+thi s0 infinity
+thi s0 1e14
+lis
+sco s13 c2 0
+lis
+VIE; PLC; GO
+gra syste_infty

@@ -1,0 +1,21 @@
+res system_with_camera_tilt_SLM
+?SCO S14 C2
+AUT; @x_coeff == 1/(SCO S14 C4) * (SCO S14 C7) - (SCO S13 C2); @y_coeff == (SCO S14 C2) / (SCO S14 C4) - (SCO S13 C3); @x_coeff = 0; @y_coeff = 0; SCO S14 C2 < 1e-5; STP YES; ERR CDV; MNC 5; DRA S1..30  NO; EFP ALL Y; EFT TA; GLA SO..I  NFK5 NSK16 NLAF2
+@x_coeff == 1/(SCO S14 C4) * (SCO S14 C7) - (SCO S13 C2)
+@y_coeff == (SCO S14 C2) / (SCO S14 C4) - (SCO S13 C3)
+@x_coeff = 0
+@y_coeff = 0
+SCO S14 C2 < 1e-5
+STP YES
+ERR CDV
+MNC 5
+DRA S1..30  NO
+EFP ALL Y
+EFT TA
+GLA SO..I  NFK5 NSK16 NLAF2 SF4
+go
+?SCO S14 C2
+PIK SCO C4 S14 SCO C2 S14 0 1
+PIK SCO C7 S14 SCO C2 S14 1 0
+?SCO S14 C2
+exit
