@@ -38,7 +38,7 @@ if __name__ == '__main__':
     e2_surface = "S7"           # Lens 2 to Lohmann lens
     e3_surface = "S9"           # Lohmann to lens 3
     e4_surface = "S12"          # Lens 3 to SLM
-    e5_surface = "S13"          # Lens 3 to SLM e5 must be  e5 = -e4
+    e5_surface = "S13"          # Lens 3 to SLM e5 must be  e5 = -e4 S13 now has a pickup to S12
     e6_surface = "S22"          # Lens 4 to lens 5
     e7_surface = "S26"          # Lens 5 to lens 6
     e8_surface = "S29"          # Lens 6 to camera's sensor
@@ -139,8 +139,8 @@ if __name__ == '__main__':
                 np.savez(os.path.join(RESULTS_DIR, f"sensitivity_{e_surface}_dist_{int(dist*1000)}mm.npz"), epsilon=epsilon, powers=powers, dist=dist)
 
 
-                plt.plot(epsilon*1e3, powers, marker='o', label=f'Surface {e_surface} at {dist*1000} mm')
-                plt.title(f"Sensitivity Analysis for Surface {e_surface} at Object Distance {dist*1000} mm")
+                plt.plot(epsilon*1e3, powers, marker='o', label=r'$d_O' + f'= {dist*1000} mm')
+                plt.title(r"Surface" + f"{e_surface}")
                 plt.xlabel('Epsilon (mm)')
                 plt.ylabel('Optical Power (Diopters)')
                 plt.grid(True)

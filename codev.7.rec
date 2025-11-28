@@ -1,0 +1,18 @@
+res system_with_camera
+thi s0 ininity
+thi s0 infinity
+thi s0 1e14
+lis
+sco s13 c2 0
+gra syste_infty
+gcv ps syste_infty.plt
+vie
+plc
+go
+gcv ps syste_infty.plt
+lis
+gra syste_infty
+vie; plc; go
+gcv ps syste_infty.plt
+gcv eps syste_infty.plt
+gcv jpg syste_infty.plt
