@@ -164,7 +164,7 @@ if __name__ == '__main__':
 
 
                 plt.plot(epsilon*1e3, powers, marker='o', label=r'$d_O$' + f'= {dist*1000} mm')
-                plt.title(r"Surface {e_surface}")
+                plt.title(f"Lens {name_maps[e_surface]}")
                 plt.xlabel('Epsilon (mm)')
                 plt.ylabel('Optical Power (Diopters)')
                 plt.grid(True)

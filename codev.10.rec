@@ -1,0 +1,68 @@
+res system_with_camera
+lis
+out "test_lens.csv"
+WRI "Surface, Radius, Thickness, Glass, Refract_Index"
+FOR ^i 1 (NUM S)
+    ! Gather data: Radius, Thickness, Glass Name, Index (nd)
+    ^rdy == (RDY S^i)
+    ^thi == (THI S^i)
+    ^gla == (GLA S^i)
+    ^ind == (IND S^i)
+
+    ! Write data separated by commas
+    ! The Quote " " format string is optional but helps format numbers
+    WRI ^i "," ^rdy "," ^thi "," ^gla "," ^ind
+
+END FOR
+out t
+wri "export complete"
+! Define the output file name
+^filename == "lens_export.csv"
+
+! Direct output to the file
+OUT ^filename
+
+! Write the Header Row for Excel (Surface, Radius, Thickness, Glass, Index)
+WRI "Surface, Radius, Thickness, Glass, Refract_Index"
+
+! Loop through all surfaces from Object (0) to Image
+FOR ^i 0 (NUM S)
+    ! Capture data for the current surface ^i
+    ^rdy == (RDY S^i)
+    ^thi == (THI S^i)
+    ^gla == (GLA S^i)
+    ^ind == (IND S^i)
+
+    ! Write the data separated by commas
+    WRI ^i "," ^rdy "," ^thi "," ^gla "," ^ind
+
+END FOR
+
+! Reset output to the terminal (screen)
+OUT T
+
+! Confirm completion
+WRI "Data exported to " ^filename
+! 1. Clear Buffer 1 to ensure it is empty
+BUF DEL B1
+
+! 2. Create the Header Row using BUF PUT
+!    We put string headers into the first row of Buffer 1
+BUF PUT B1 "Surface" "Radius" "Thickness" "Glass" "Index"
+
+! 3. Loop through all surfaces to gather data [cite: 4065]
+!    (NUM S) is the database item for total surface count [cite: 4124]
+FOR ^i 0 (NUM S)
+
+    ! 4. Put data into Buffer 1 for the current surface
+    !    We access database items (RDY, THI, GLA, IND)
+    BUF PUT B1 ^i (RDY S^i) (THI S^i) (GLA S^i) (IND S^i)
+
+END FOR
+
+! 5. Export the Buffer to a CSV file [cite: 4255, 4266]
+!    We specify the Separator (SEP) as a comma for Excel compatibility
+BUF EXP B1 SEP "," "lens_data.csv"
+
+! 6. Confirm completion
+WRI "Export successful. File saved as lens_data.csv"

@@ -1,0 +1,34 @@
+CODE V>
+CODE V> ! Write the Header Row for Excel (Surface, Radius, Thickness, Glass, Index)
+CODE V> WRI "Surface, Radius, Thickness, Glass, Refract_Index"
+ Surface, Radius, Thickness, Glass, Refract_Index
+CODE V>
+CODE V> ! Loop through all surfaces from Object (0) to Image
+CODE V> FOR ^i 0 (NUM S)
+     ERROR - Invalid command FOR
+CODE V>     ! Capture data for the current surface ^i
+CODE V>     ^rdy == (RDY S^i)
+CODE V>     ^rdy == (RDY S^i)
+     ERROR - Variable (^i) has never been assigned a value
+CODE V>     ^thi == (THI S^i)
+CODE V>     ^thi == (THI S^i)
+     ERROR - Variable (^i) has never been assigned a value
+CODE V>     ^gla == (GLA S^i)
+CODE V>     ^gla == (GLA S^i)
+     ERROR - Variable (^i) has never been assigned a value
+CODE V>     ^ind == (IND S^i)
+CODE V>     ^ind == (IND S^i)
+     ERROR - Variable (^i) has never been assigned a value
+CODE V>
+CODE V>     ! Write the data separated by commas
+CODE V>     WRI ^i "," ^rdy "," ^thi "," ^gla "," ^ind
+CODE V>     WRI ^i "," ^rdy "," ^thi "," ^gla "," ^ind
+CODE V>     WRI ^i "," ^rdy "," ^thi "," ^gla "," ^ind
+                ^
+     ERROR - Undefined variable encountered within expression
+CODE V>
+CODE V> END FOR
+     ERROR - Invalid command END
+CODE V>
+CODE V> ! Reset output to the terminal (screen)
+CODE V> OUT T

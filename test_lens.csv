@@ -1,0 +1,29 @@
+CODE V> WRI "Surface, Radius, Thickness, Glass, Refract_Index"
+ Surface, Radius, Thickness, Glass, Refract_Index
+CODE V> FOR ^i 1 (NUM S)
+     ERROR - Invalid command FOR
+CODE V>     ! Gather data: Radius, Thickness, Glass Name, Index (nd)
+CODE V>     ^rdy == (RDY S^i)
+CODE V>     ^rdy == (RDY S^i)
+     ERROR - Variable (^i) has never been assigned a value
+CODE V>     ^thi == (THI S^i)
+CODE V>     ^thi == (THI S^i)
+     ERROR - Variable (^i) has never been assigned a value
+CODE V>     ^gla == (GLA S^i)
+CODE V>     ^gla == (GLA S^i)
+     ERROR - Variable (^i) has never been assigned a value
+CODE V>     ^ind == (IND S^i)
+CODE V>     ^ind == (IND S^i)
+     ERROR - Variable (^i) has never been assigned a value
+CODE V>
+CODE V>     ! Write data separated by commas
+CODE V>     ! The Quote " " format string is optional but helps format numbers
+CODE V>     WRI ^i "," ^rdy "," ^thi "," ^gla "," ^ind
+CODE V>     WRI ^i "," ^rdy "," ^thi "," ^gla "," ^ind
+CODE V>     WRI ^i "," ^rdy "," ^thi "," ^gla "," ^ind
+                ^
+     ERROR - Undefined variable encountered within expression
+CODE V>
+CODE V> END FOR
+     ERROR - Invalid command END
+CODE V> out t
